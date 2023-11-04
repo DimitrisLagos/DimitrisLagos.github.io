@@ -1,4 +1,7 @@
-tocTab[tocTab.length] = new Array("0.5.2.4:1", "", "UC 1.08 HEMS/BEMS DR optimization and local flexibility management", "EARoot/EA5/EA2/EA4/EA349.htm", "179.png", "84", "0", "", "Deployment diagram0","{94979FAB-9383-4b4e-A21E-1D75CF6371D0}");
-tocTab[tocTab.length] = new Array("0.5.2.4:2", "", "UC1.04 Real Time Thermal Rating", "EARoot/EA5/EA2/EA4/EA351.htm", "179.png", "74", "0", "", "Deployment diagram0","{2D9B716B-8F23-4ffa-8944-BB4CF71B31E3}");
-tocTab[tocTab.length] = new Array("0.5.2.4:3", "", "UC1.07 Investement Defferal", "EARoot/EA5/EA2/EA4/EA353.htm", "179.png", "75", "0", "", "Deployment diagram0","{659C24F0-FEE4-43df-87E5-4FFEF2D41811}");
-tocTab[tocTab.length] = new Array("0.5.2.4.1", "1", "Components", "EARoot/EA5/EA2/EA4/EA1/EA359.htm", "4.png", "", "", "{048E9785-7BB4-4c82-912E-646FEB8B5599}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.4:1", "", "UC 1.05 Advanced Asset Management", "EARoot/EA5/EA2/EA4/EA491.htm", "179.png", "106", "0", "", "Deployment diagram0","{9B8AF980-C135-4dae-8CAF-B66982CF0819}");
+tocTab[tocTab.length] = new Array("0.5.2.4:2", "", "UC 1.08 HEMS/BEMS DR optimization and local flexibility management", "EARoot/EA5/EA2/EA4/EA493.htm", "179.png", "84", "0", "", "Deployment diagram0","{94979FAB-9383-4b4e-A21E-1D75CF6371D0}");
+tocTab[tocTab.length] = new Array("0.5.2.4:3", "", "UC 1.09 Initialization of HEMS/BEMS Demand Response strategy", "EARoot/EA5/EA2/EA4/EA495.htm", "179.png", "85", "0", "", "Deployment diagram0","{0AC7C3F5-99A9-4465-B24D-E4E446C02961}");
+tocTab[tocTab.length] = new Array("0.5.2.4:4", "", "UC1.04 Real Time Thermal Rating", "EARoot/EA5/EA2/EA4/EA497.htm", "179.png", "74", "0", "", "Deployment diagram0","{2D9B716B-8F23-4ffa-8944-BB4CF71B31E3}");
+tocTab[tocTab.length] = new Array("0.5.2.4:5", "", "UC1.07 Investement Defferal", "EARoot/EA5/EA2/EA4/EA499.htm", "179.png", "99", "0", "", "Deployment diagram0","{BF07EA3D-79F4-4430-BD7B-2C395384FC45}");
+tocTab[tocTab.length] = new Array("0.5.2.4:6", "", "«Computer» Plug&#39;n&#39;play recognition system", "EARoot/EA5/EA2/EA4/EA503.htm", "9.png", "E681", "0", "", "Node0","{AC9094A7-A81F-4d40-942F-7D70C2263437}");
+tocTab[tocTab.length] = new Array("0.5.2.4.1", "1", "Components", "EARoot/EA5/EA2/EA4/EA1/EA504.htm", "4.png", "", "", "{048E9785-7BB4-4c82-912E-646FEB8B5599}", "Package");
