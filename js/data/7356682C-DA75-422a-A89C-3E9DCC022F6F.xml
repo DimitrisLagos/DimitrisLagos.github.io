@@ -1,1 +1,7 @@
-tocTab[tocTab.length] = new Array("0.3.2:1", "", "Standard and Information Object Mapping", "EARoot/EA3/EA2/EA173.htm", "175.png", "14", "0", "", "Logical diagram0","{475A257D-61AC-48ec-B3C7-964DDD1BC247}");
+tocTab[tocTab.length] = new Array("0.3.2:1", "", "Standard and Information Object Mapping", "EARoot/EA3/EA2/EA182.htm", "175.png", "14", "0", "", "Logical diagram0","{475A257D-61AC-48ec-B3C7-964DDD1BC247}");
+tocTab[tocTab.length] = new Array("0.3.2:2", "", "UC1.04 Real Time Thermal Rating", "EARoot/EA3/EA2/EA184.htm", "175.png", "122", "0", "", "Logical diagram0","{0DFC1944-8537-407d-950A-DBB9919CDD8D}");
+tocTab[tocTab.length] = new Array("0.3.2:3", "", "«Data Model Standard» AMI specific Datamodel", "EARoot/EA3/EA2/EA187.htm", "5.png", "E780", "0", "", "Class0","{6C78C502-C29C-40ac-9D5A-8918A5D69278}");
+tocTab[tocTab.length] = new Array("0.3.2:4", "", "«Data Model Standard» DSO SCADA specific datamodel ", "EARoot/EA3/EA2/EA188.htm", "5.png", "E782", "0", "", "Class0","{9960F88F-9831-4a8d-8B13-DA8D0D9B117A}");
+tocTab[tocTab.length] = new Array("0.3.2:5", "", "«Data Model Standard» EN 60870 (102/104) ", "EARoot/EA3/EA2/EA189.htm", "5.png", "E781", "0", "", "Class0","{94B7EEC0-FC78-4f7d-81C1-A71528858E54}");
+tocTab[tocTab.length] = new Array("0.3.2:6", "", "«Data Model Standard» Home Automation Data Model ", "EARoot/EA3/EA2/EA190.htm", "5.png", "E783", "0", "", "Class0","{76A7E968-F88E-497c-A183-676DFE78E31E}");
+tocTab[tocTab.length] = new Array("0.3.2:7", "", "«Data Model Standard» Weather forecast datamodel", "EARoot/EA3/EA2/EA191.htm", "5.png", "E779", "0", "", "Class0","{173280F4-E7C1-4e0d-9659-0820956E249B}");

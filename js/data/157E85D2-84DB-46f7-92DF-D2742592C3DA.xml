@@ -1,1 +1,8 @@
-tocTab[tocTab.length] = new Array("0.3.3:1", "", "Canonical Data Model", "EARoot/EA3/EA3/EA179.htm", "175.png", "15", "0", "", "Logical diagram0","{90055DB2-9941-4e96-AD11-A6505C6F0C49}");
+tocTab[tocTab.length] = new Array("0.3.3:1", "", "UC1.04 Real Time Thermal Rating", "EARoot/EA3/EA3/EA198.htm", "175.png", "15", "0", "", "Logical diagram0","{90055DB2-9941-4e96-AD11-A6505C6F0C49}");
+tocTab[tocTab.length] = new Array("0.3.3:2", "", "«Information Object» Acknowledgement of DSO EMS", "EARoot/EA3/EA3/EA201.htm", "204.png", "E773", "0", "", "InformationItem0","{592F47EE-1B68-475d-BCE0-1195A2D203B1}");
+tocTab[tocTab.length] = new Array("0.3.3:3", "", "«Information Object» Current Ratings of MV lines", "EARoot/EA3/EA3/EA202.htm", "204.png", "E772", "0", "", "InformationItem0","{B390C4B9-CEDB-419f-A56F-BC6621910C2B}");
+tocTab[tocTab.length] = new Array("0.3.3:4", "", "«Information Object» Electrical and Weather Data", "EARoot/EA3/EA3/EA203.htm", "204.png", "E768", "0", "", "InformationItem0","{F41A647A-2C43-4755-960F-07E9B3D2A0A5}");
+tocTab[tocTab.length] = new Array("0.3.3:5", "", "«Weather Data» InformationObject1", "EARoot/EA3/EA3/EA204.htm", "204.png", "E770", "0", "", "InformationItem0","{DF759ED2-4082-4dd7-88A2-F610FDD2A4BE}");
+tocTab[tocTab.length] = new Array("0.3.3:6", "", "«Weather Data» Weather Data", "EARoot/EA3/EA3/EA205.htm", "204.png", "E769", "0", "", "InformationItem0","{DE81D6A2-ED98-4d68-9EE8-4EE45CFC977C}");
+tocTab[tocTab.length] = new Array("0.3.3:7", "", "«Information Object» Weather Data", "EARoot/EA3/EA3/EA206.htm", "204.png", "E771", "0", "", "InformationItem0","{6D52FAB2-B927-4090-A79D-8D6ADA667176}");
+tocTab[tocTab.length] = new Array("0.3.3:8", "", "«Information Object» Weather Data (Wind Speed, Wind Direction, Ambient Temperature)", "EARoot/EA3/EA3/EA207.htm", "204.png", "E767", "0", "", "InformationItem0","{A693A525-3CBB-4c48-8AA2-3C0853D2C464}");
