@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.5.2.1:1", "", "UC 2.2 Network planning for High RES penetration", "EARoot/EA5/EA2/EA1/EA497.htm", "179.png", "100", "0", "", "Deployment diagram0","{03A60A1D-44A1-412d-A0B8-EE8EB2479079}");
-tocTab[tocTab.length] = new Array("0.5.2.1:2", "", "«Server» Investement Deferral Server", "EARoot/EA5/EA2/EA1/EA500.htm", "9.png", "E634", "0", "", "Node0","{8495F8F6-0C15-45e2-A213-8CEBD4E2071C}");
-tocTab[tocTab.length] = new Array("0.5.2.1:3", "", "«Server» Database", "EARoot/EA5/EA2/EA1/EA501.htm", "9.png", "E635", "0", "", "Node0","{788C4F53-1ADD-4356-BFF8-491EBF391529}");
-tocTab[tocTab.length] = new Array("0.5.2.1:4", "", "«Computer» DSO PC", "EARoot/EA5/EA2/EA1/EA502.htm", "9.png", "E636", "0", "", "Node0","{7DB98328-BD32-430d-BF76-81BE7BEC8989}");
+tocTab[tocTab.length] = new Array("0.5.2.1:1", "", "UC 2.2 Network planning for High RES penetration", "EARoot/EA5/EA2/EA1/EA716.htm", "179.png", "100", "0", "", "Deployment diagram0","{03A60A1D-44A1-412d-A0B8-EE8EB2479079}");
+tocTab[tocTab.length] = new Array("0.5.2.1:2", "", "«Server» Investement Deferral Server", "EARoot/EA5/EA2/EA1/EA719.htm", "9.png", "E634", "0", "", "Node0","{8495F8F6-0C15-45e2-A213-8CEBD4E2071C}");
+tocTab[tocTab.length] = new Array("0.5.2.1:3", "", "«Server» Database", "EARoot/EA5/EA2/EA1/EA720.htm", "9.png", "E635", "0", "", "Node0","{788C4F53-1ADD-4356-BFF8-491EBF391529}");
+tocTab[tocTab.length] = new Array("0.5.2.1:4", "", "«Computer» DSO PC", "EARoot/EA5/EA2/EA1/EA721.htm", "9.png", "E636", "0", "", "Node0","{7DB98328-BD32-430d-BF76-81BE7BEC8989}");
