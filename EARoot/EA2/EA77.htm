@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>_ActivityGraph</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> _ActivityGraph </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.htm">Model</a> / <a href="EA89.htm">SGAM Function Layer</a> / <a href="EA91.htm">:UC 1.10 Establishment of a flexibility market and flexibility procurement</a> / <a href="EA116.htm">_ActivityGraph</a> / <a href="EA77.htm">_ActivityGraph</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/181.png" alt=""/> <a href="EA77.htm">_ActivityGraph</a></li>
+<li><img src="../../images/25.png" alt="Object"/> <a href="EA130.htm">:Location, flexibility volume, price</a></li>
+<li><img src="../../images/98.png" alt="StateNode"/> <a href="EA142.htm">FlowEnd1</a></li>
+<li><img src="../../images/98.png" alt="StateNode"/> <a href="EA143.htm">FlowEnd2</a></li>
+<li><img src="../../images/98.png" alt="StateNode"/> <a href="EA144.htm">FlowFinal</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA131.htm">Aggregators/FSPs register flexibility assets in Nodes Market Platform</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA132.htm">Aggregators/FSPs submit baselines/portfolio to NODES market platform</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA133.htm">Aggregators/FSPs submit flexibility bids to NODES market platform. </a></li>
+<li><img src="../../images/56.png" alt="Decision"/> <a href="EA134.htm">Alternate1</a></li>
+<li><img src="../../images/56.png" alt="Decision"/> <a href="EA135.htm">Alternate2</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA136.htm">DSO assigns the new flexibility assets in specific nodes at Nodes Market Platform</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA137.htm">DSO provides meter data for validation purposes in NODES market platform</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA138.htm">DSO register to the Nodes Market Platform</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA139.htm">DSO registers the grid nodes in Nodes Market Platform </a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA140.htm">DSO submit offer to buy flexibility and flexibility thresholds to NODES Market Platform</a></li>
+<li><img src="../../images/69.png" alt="StateNode"/> <a href="EA141.htm">End</a></li>
+<li><img src="../../images/193.png" alt="MergeNode"/> <a href="EA145.htm">MergeNode1</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA146.htm">Nodes Market Platform notifies DSO of new flexibility assets registration</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA147.htm">Registration of Aggregators/FSPs to Nodes market platform</a></li>
+<li><img src="../../images/68.png" alt="StateNode"/> <a href="EA148.htm">Start</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA149.htm">TSO Registers to Nodes Market Platform</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA150.htm">TSO submit offer to buy flexibility and flexibility thresholds to NODES Market Platform</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA78.png" usemap="#EA78" border="0" />
+
+<MAP NAME="EA78">
+<area shape="rect" coords="549,466,639,536" href="EA101.htm" target="_self">
+<area shape="rect" coords="1048,724,1156,794" href="EA97.htm" target="_self">
+<area shape="rect" coords="416,843,506,913" href="EA100.htm" target="_self">
+<area shape="rect" coords="10,537,137,638" href="EA105.htm" target="_self">
+<area shape="rect" coords="1048,552,1138,650" href="EA106.htm" target="_self">
+<area shape="rect" coords="257,326,347,424" href="EA99.htm" target="_self">
+<area shape="rect" coords="256,194,346,264" href="EA95.htm" target="_self">
+<area shape="rect" coords="759,10,849,108" href="EA96.htm" target="_self">
+<area shape="rect" coords="654,568,680,602" href="EA145.htm" target="_self">
+<area shape="rect" coords="233,694,253,714" href="EA141.htm" target="_self">
+<area shape="rect" coords="176,539,311,632" href="EA132.htm" target="_self">
+<area shape="rect" coords="809,844,829,864" href="EA143.htm" target="_self">
+<area shape="rect" coords="752,720,887,798" href="EA137.htm" target="_self">
+<area shape="rect" coords="751,531,886,639" href="EA140.htm" target="_self">
+<area shape="rect" coords="394,713,529,806" href="EA136.htm" target="_self">
+<area shape="rect" coords="394,538,529,631" href="EA146.htm" target="_self">
+<area shape="rect" coords="599,329,734,404" href="EA139.htm" target="_self">
+<area shape="rect" coords="599,192,734,267" href="EA138.htm" target="_self">
+<area shape="rect" coords="448,464,474,498" href="EA135.htm" target="_self">
+<area shape="rect" coords="176,421,311,499" href="EA133.htm" target="_self">
+<area shape="rect" coords="395,330,530,408" href="EA131.htm" target="_self">
+<area shape="rect" coords="395,190,530,268" href="EA147.htm" target="_self">
+<area shape="rect" coords="886,464,906,484" href="EA142.htm" target="_self">
+<area shape="rect" coords="837,305,972,413" href="EA150.htm" target="_self">
+<area shape="rect" coords="837,192,972,267" href="EA149.htm" target="_self">
+<area shape="rect" coords="656,93,676,113" href="EA148.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">_ActivityGraph : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/11/2023 17:17:01</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">12/11/2023 17:35:36</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Dimitris</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{96F259FF-01DA-4739-A33B-005DAEC9AC2B}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
