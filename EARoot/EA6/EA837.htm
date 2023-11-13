@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>IED System Security</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> IED System Security </h1>
+			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../index.htm">Model</a> / <a href="EA847.htm">Security Requirements</a> / <a href="EA871.htm">IED System Security</a> / <a href="EA837.htm">IED System Security</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../images/175.png" alt="Diagram"/> <a href="EA837.htm">IED System Security</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA964.htm">Access Control (Authentication)</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA965.htm">Client Supervision</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA966.htm">Security against Insider System Attacks</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA967.htm">Security against Outsider System Attacks</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA968.htm">System Access Restrictions (Authorisation)</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA969.htm">Security against &quot;Compromised Clients&quot; System Attacks</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA970.htm">Client Security Policies</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA971.htm">Automated Account Expiry Process</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA972.htm">Control, Document and Maintain System Entry-Points</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA973.htm">Limit Permissions for unmanaged clients</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA974.htm">Minimize Access Permissions</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA975.htm">Require strong credentials</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA976.htm">Minimize System Access Possibilities (Remote Access)</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA977.htm">Secure Credential Handling</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA978.htm">Periodic Credential Renewal</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA979.htm">Blocking of Brute-Force Attacks</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA980.htm">Combine &quot;Have a token&quot; and &quot;know a secret&quot; paradigm</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA981.htm">Control, Document and Maintain Access Permissions</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA982.htm">Force expiration of insider access information</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA983.htm">Control, Document and Maintain authorised Clients</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA984.htm">Emphasize Client Security (Automated Patching, Malware Detection,...)</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA985.htm">Maintain different security levels for different functionalities</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA986.htm">Prevent Code-Injection Attacks</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA987.htm">Access Tracking</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA988.htm">Anomaly Detection</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA989.htm">Detection of Brute-Force or Code-Injection Attacks</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA990.htm">Detection of suspicious clients</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA991.htm">User Access Feedback</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA992.htm">Tracking and Documentation of attacks</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA993.htm">Anomaly/Intrusion Detection</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA994.htm">Access Incident Process</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA995.htm">Client Compromised Incident Process</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA996.htm">Maintain Containment Principle for individual security segments</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA997.htm">Minimize Access Rights (Containment of single Access)</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA998.htm">Operate System in isolated space</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA999.htm">Reaction-Plan to insuccessful system attack</a></li>
+<li><img src="../../images/19.png" alt="Requirement"/> <a href="EA1000.htm">Reaction-Plan to successful attack</a></li>
+<li><img src="../../images/21.png" alt="Activity"/> <a href="EA963.htm">Periodic Assessment of Security Requirements</a></li>
+<li><img src="../../images/329.png" alt="Text"/> <a href="EA962.htm">Legend</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA838.png" usemap="#EA838" border="0" />
+
+<MAP NAME="EA838">
+<area shape="rect" coords="546,61,606,121" href="EA865.htm" target="_self">
+<area shape="rect" coords="680,127,840,173" href="EA837.htm" target="_self">
+<area shape="rect" coords="240,253,355,332" href="EA848.htm" target="_self">
+<area shape="rect" coords="1323,904,1482,950" href="EA994.htm" target="_self">
+<area shape="rect" coords="973,669,1132,715" href="EA993.htm" target="_self">
+<area shape="rect" coords="749,968,849,1028" href="EA963.htm" target="_self">
+<area shape="rect" coords="10,988,160,1102" href="EA962.htm" target="_self">
+<area shape="rect" coords="1365,1049,1548,1124" href="EA961.htm" target="_self">
+<area shape="rect" coords="972,488,1131,527" href="EA973.htm" target="_self">
+<area shape="rect" coords="973,720,1132,766" href="EA996.htm" target="_self">
+<area shape="rect" coords="973,618,1132,664" href="EA985.htm" target="_self">
+<area shape="rect" coords="973,574,1132,620" href="EA981.htm" target="_self">
+<area shape="rect" coords="1323,404,1482,450" href="EA976.htm" target="_self">
+<area shape="rect" coords="972,532,1131,571" href="EA974.htm" target="_self">
+<area shape="rect" coords="587,466,746,505" href="EA970.htm" target="_self">
+<area shape="rect" coords="587,608,746,647" href="EA995.htm" target="_self">
+<area shape="rect" coords="587,563,746,602" href="EA990.htm" target="_self">
+<area shape="rect" coords="587,511,746,583" href="EA984.htm" target="_self">
+<area shape="rect" coords="531,10,1059,50" href="EA960.htm" target="_self">
+<area shape="rect" coords="1200,206,1336,252" href="EA966.htm" target="_self">
+<area shape="rect" coords="700,214,836,286" href="EA969.htm" target="_self">
+<area shape="rect" coords="208,845,367,884" href="EA1000.htm" target="_self">
+<area shape="rect" coords="208,801,367,847" href="EA999.htm" target="_self">
+<area shape="rect" coords="208,757,367,796" href="EA998.htm" target="_self">
+<area shape="rect" coords="208,713,367,752" href="EA992.htm" target="_self">
+<area shape="rect" coords="208,669,367,708" href="EA989.htm" target="_self">
+<area shape="rect" coords="208,625,367,664" href="EA986.htm" target="_self">
+<area shape="rect" coords="208,581,367,620" href="EA979.htm" target="_self">
+<area shape="rect" coords="208,537,367,576" href="EA978.htm" target="_self">
+<area shape="rect" coords="208,493,367,532" href="EA977.htm" target="_self">
+<area shape="rect" coords="208,449,367,488" href="EA975.htm" target="_self">
+<area shape="rect" coords="208,398,367,444" href="EA972.htm" target="_self">
+<area shape="rect" coords="56,215,192,261" href="EA967.htm" target="_self">
+<area shape="rect" coords="1323,722,1482,761" href="EA988.htm" target="_self">
+<area shape="rect" coords="1323,583,1482,629" href="EA982.htm" target="_self">
+<area shape="rect" coords="1323,854,1482,900" href="EA997.htm" target="_self">
+<area shape="rect" coords="1323,627,1482,673" href="EA980.htm" target="_self">
+<area shape="rect" coords="1323,766,1482,805" href="EA987.htm" target="_self">
+<area shape="rect" coords="1323,671,1482,717" href="EA983.htm" target="_self">
+<area shape="rect" coords="866,300,1002,346" href="EA968.htm" target="_self">
+<area shape="rect" coords="1166,296,1327,340" href="EA964.htm" target="_self">
+<area shape="rect" coords="487,299,623,343" href="EA965.htm" target="_self">
+<area shape="rect" coords="1323,451,1482,490" href="EA971.htm" target="_self">
+<area shape="rect" coords="1323,810,1482,849" href="EA991.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">IED System Security :  diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">25/04/2014 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">02/09/2015 11:29:56</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">lpons</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{F18F1EF5-FFB0-4fdd-BBB3-D26E8D05D997}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
