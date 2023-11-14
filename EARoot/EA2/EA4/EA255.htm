@@ -85,13 +85,19 @@
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
 <li><img src="../../../images/180.png" alt="Diagram"/> <a href="EA255.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines</a></li>
-<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA261.htm">Acknowledgement by the DSO EMS to RTTR software</a></li>
-<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA262.htm">RTTR software access to real time data from DSO EMS</a></li>
-<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA263.htm">RTTR software access to real time weather data from building EMS</a></li>
-<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA264.htm">RTTR software access to weather data from a weather service provider.</a></li>
-<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA265.htm">RTTR software updates the line thermal rating in DSO EMS.</a></li>
-<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA266.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph</a></li>
-<li><img src="../../../images/207.png" alt="Interaction"/> <a href="EA267.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_SequenceDiagram</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA261.htm">Acknowledgement by the DSO SCADA to RTTR software</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA262.htm">AMI sends production data to AMI database</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA263.htm">DSO SCADA sends electrical measurements to DSO SCADA Database</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA264.htm">Grid sends electrical measurements to RTU</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA265.htm">RTTR software access electrical measurements from DSO SCADA Database</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA266.htm">RTTR software access production data from DER from AMI database.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA267.htm">RTTR software access to real time weather data from building EMS</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA268.htm">RTTR software access to weather data from a weather service provider.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA269.htm">RTTR software updates the line thermal rating in DSO SCADA database.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA270.htm">RTU sends electrical measurements to DSO SCADA</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA271.htm">Smart meter of DER send production data to the AMI</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA272.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph</a></li>
+<li><img src="../../../images/207.png" alt="Interaction"/> <a href="EA273.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_SequenceDiagram</a></li>
 </ul>
 
 					</td>
@@ -100,10 +106,16 @@
 <img src="EA256.png" usemap="#EA256" border="0" />
 
 <MAP NAME="EA256">
-<area shape="rect" coords="963,278,998,348" href="../EA5/EA296.htm" target="_self">
-<area shape="rect" coords="1361,458,1396,528" href="../EA5/EA286.htm" target="_self">
-<area shape="rect" coords="671,459,706,529" href="../EA5/EA289.htm" target="_self">
-<area shape="rect" coords="664,254,865,388" href="EA260.htm" target="_self">
+<area shape="rect" coords="1008,636,1043,706" href="../EA5/EA325.htm" target="_self">
+<area shape="rect" coords="692,729,727,799" href="../EA5/EA322.htm" target="_self">
+<area shape="rect" coords="531,627,566,697" href="../EA5/EA324.htm" target="_self">
+<area shape="rect" coords="818,336,853,406" href="../EA5/EA320.htm" target="_self">
+<area shape="rect" coords="621,443,656,513" href="../EA5/EA319.htm" target="_self">
+<area shape="rect" coords="463,205,498,275" href="../EA5/EA321.htm" target="_self">
+<area shape="rect" coords="856,191,891,261" href="../EA5/EA318.htm" target="_self">
+<area shape="rect" coords="1165,445,1200,515" href="../EA5/EA308.htm" target="_self">
+<area shape="rect" coords="498,445,533,515" href="../EA5/EA311.htm" target="_self">
+<area shape="rect" coords="561,190,762,324" href="EA260.htm" target="_self">
 </MAP>
  </div>
 	<div class="ObjectTitle">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines : Function Layer diagram</div>
@@ -114,7 +126,7 @@
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
-			<td width="85%" class="ObjectDetailsValue">08/11/2023 14:34:10</td>
+			<td width="85%" class="ObjectDetailsValue">14/11/2023 13:38:18</td>
 		</tr>
 		<tr style="padding-top: 10px;">
 			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>

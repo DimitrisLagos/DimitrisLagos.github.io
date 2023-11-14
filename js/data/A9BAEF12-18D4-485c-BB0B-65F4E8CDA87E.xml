@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.5.2.3:1", "", "UC 4.5 Improving the Grid Infrastructure", "EARoot/EA5/EA2/EA3/EA738.htm", "179.png", "101", "0", "", "Deployment diagram0","{76F39C16-F21B-4062-B021-9D7D84DB76D6}");
-tocTab[tocTab.length] = new Array("0.5.2.3:2", "", "«Server» Investement Deferral Server", "EARoot/EA5/EA2/EA3/EA741.htm", "9.png", "E637", "0", "", "Node0","{26C8393F-853D-44ca-9933-25014406EF38}");
-tocTab[tocTab.length] = new Array("0.5.2.3:3", "", "«Server» Database", "EARoot/EA5/EA2/EA3/EA742.htm", "9.png", "E638", "0", "", "Node0","{ABABDEC6-51EE-49f8-B817-7510613A2C82}");
-tocTab[tocTab.length] = new Array("0.5.2.3:4", "", "«Computer» DSO PC", "EARoot/EA5/EA2/EA3/EA743.htm", "9.png", "E639", "0", "", "Node0","{ADC54B98-EBC3-4a6e-A332-EB492FE83576}");
+tocTab[tocTab.length] = new Array("0.5.2.3:1", "", "UC 4.5 Improving the Grid Infrastructure", "EARoot/EA5/EA2/EA3/EA766.htm", "179.png", "101", "0", "", "Deployment diagram0","{76F39C16-F21B-4062-B021-9D7D84DB76D6}");
+tocTab[tocTab.length] = new Array("0.5.2.3:2", "", "«Server» Investement Deferral Server", "EARoot/EA5/EA2/EA3/EA769.htm", "9.png", "E637", "0", "", "Node0","{26C8393F-853D-44ca-9933-25014406EF38}");
+tocTab[tocTab.length] = new Array("0.5.2.3:3", "", "«Server» Database", "EARoot/EA5/EA2/EA3/EA770.htm", "9.png", "E638", "0", "", "Node0","{ABABDEC6-51EE-49f8-B817-7510613A2C82}");
+tocTab[tocTab.length] = new Array("0.5.2.3:4", "", "«Computer» DSO PC", "EARoot/EA5/EA2/EA3/EA771.htm", "9.png", "E639", "0", "", "Node0","{ADC54B98-EBC3-4a6e-A332-EB492FE83576}");
