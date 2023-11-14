@@ -69,7 +69,7 @@
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA259.htm">Low Cost RTTR</a> / <a href="EA260.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines</a> / <a href="EA266.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph</a> / <a href="EA257.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA259.htm">Low Cost RTTR</a> / <a href="EA260.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines</a> / <a href="EA272.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph</a> / <a href="EA257.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -85,15 +85,24 @@
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
 <li><img src="../../../images/181.png" alt="Diagram"/> <a href="EA257.htm">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph</a></li>
-<li><img src="../../../images/25.png" alt="Object"/> <a href="EA269.htm">:Electrical and Weather Measurements</a></li>
-<li><img src="../../../images/25.png" alt="Object"/> <a href="EA268.htm">:Weather Forecasts</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA270.htm">Acknowledgement by the DSO EMS to RTTR software</a></li>
-<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA271.htm">End</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA272.htm">RTTR software access to real time data from DSO EMS</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA273.htm">RTTR software access to real time weather data from building EMS</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA274.htm">RTTR software access to weather data from a weather service provider.</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA275.htm">RTTR software updates the line thermal rating in DSO EMS.</a></li>
-<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA276.htm">Start</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA275.htm">:Electrical and Weather Measurements</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA274.htm">:Weather Forecasts</a></li>
+<li><img src="../../../images/56.png" alt="Decision"/> <a href="EA276.htm"></a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA277.htm">Acknowledgement by the DSO SCADA to RTTR software</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA278.htm">AMI sends production data to AMI database</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA279.htm">DSO SCADA sends electrical measurements to DSO SCADA Database</a></li>
+<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA280.htm">End</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA281.htm">Grid sends electrical and/or weather measurements to RTU</a></li>
+<li><img src="../../../images/193.png" alt="MergeNode"/> <a href="EA282.htm">merge</a></li>
+<li><img src="../../../images/193.png" alt="MergeNode"/> <a href="EA283.htm">merge</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA284.htm">RTTR software access electrical measurements from DSO SCADA Database</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA285.htm">RTTR software access production data from DER from AMI database.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA286.htm">RTTR software access to real time weather data from building EMS</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA287.htm">RTTR software access to weather forecasts from a weather service provider.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA288.htm">RTTR software updates the line thermal rating in DSO SCADA database.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA289.htm">RTU sends electrical measurements to DSO SCADA</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA290.htm">Smart meter of DER send production data to the AMI</a></li>
+<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA291.htm">Start</a></li>
 </ul>
 
 					</td>
@@ -102,18 +111,27 @@
 <img src="EA258.png" usemap="#EA258" border="0" />
 
 <MAP NAME="EA258">
-<area shape="rect" coords="213,494,303,564" href="../../EA3/EA3/EA1/EA410.htm" target="_self">
-<area shape="rect" coords="220,616,322,685" href="../../EA3/EA3/EA1/EA401.htm" target="_self">
-<area shape="rect" coords="213,249,303,319" href="../../EA3/EA3/EA1/EA412.htm" target="_self">
-<area shape="rect" coords="213,369,303,439" href="../../EA3/EA3/EA1/EA435.htm" target="_self">
-<area shape="rect" coords="207,134,297,204" href="../../EA3/EA3/EA1/EA434.htm" target="_self">
-<area shape="rect" coords="65,730,85,750" href="EA271.htm" target="_self">
-<area shape="rect" coords="10,610,145,685" href="EA270.htm" target="_self">
-<area shape="rect" coords="10,490,145,565" href="EA275.htm" target="_self">
-<area shape="rect" coords="10,370,145,445" href="EA273.htm" target="_self">
-<area shape="rect" coords="10,250,145,325" href="EA272.htm" target="_self">
-<area shape="rect" coords="10,130,145,205" href="EA274.htm" target="_self">
-<area shape="rect" coords="65,10,85,30" href="EA276.htm" target="_self">
+<area shape="rect" coords="331,785,357,819" href="EA283.htm" target="_self">
+<area shape="rect" coords="171,697,197,731" href="EA282.htm" target="_self">
+<area shape="rect" coords="73,89,99,123" href="EA276.htm" target="_self">
+<area shape="rect" coords="335,1254,355,1274" href="EA280.htm" target="_self">
+<area shape="rect" coords="278,1132,413,1226" href="EA277.htm" target="_self">
+<area shape="rect" coords="278,994,413,1107" href="EA288.htm" target="_self">
+<area shape="rect" coords="276,843,411,975" href="EA287.htm" target="_self">
+<area shape="rect" coords="451,570,586,683" href="EA286.htm" target="_self">
+<area shape="rect" coords="208,570,343,683" href="EA285.htm" target="_self">
+<area shape="rect" coords="18,570,153,683" href="EA284.htm" target="_self">
+<area shape="rect" coords="210,313,345,388" href="EA278.htm" target="_self">
+<area shape="rect" coords="210,176,345,270" href="EA290.htm" target="_self">
+<area shape="rect" coords="10,428,163,541" href="EA279.htm" target="_self">
+<area shape="rect" coords="20,304,155,398" href="EA289.htm" target="_self">
+<area shape="rect" coords="18,165,153,278" href="EA281.htm" target="_self">
+<area shape="rect" coords="77,10,97,30" href="EA291.htm" target="_self">
+<area shape="rect" coords="565,999,728,1095" href="../../EA3/EA3/EA1/EA438.htm" target="_self">
+<area shape="rect" coords="565,1150,728,1219" href="../../EA3/EA3/EA1/EA429.htm" target="_self">
+<area shape="rect" coords="461,357,597,456" href="../../EA3/EA3/EA1/EA440.htm" target="_self">
+<area shape="rect" coords="683,589,819,659" href="../../EA3/EA3/EA1/EA463.htm" target="_self">
+<area shape="rect" coords="548,879,745,948" href="../../EA3/EA3/EA1/EA462.htm" target="_self">
 </MAP>
  </div>
 	<div class="ObjectTitle">UC 1.04  Real-Time Thermal Rating (RTTR) for capacity calculation of MV lines_ActivityGraph : Activity diagram</div>
@@ -124,7 +142,7 @@
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
-			<td width="85%" class="ObjectDetailsValue">08/11/2023 14:40:03</td>
+			<td width="85%" class="ObjectDetailsValue">14/11/2023 13:33:50</td>
 		</tr>
 		<tr style="padding-top: 10px;">
 			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>

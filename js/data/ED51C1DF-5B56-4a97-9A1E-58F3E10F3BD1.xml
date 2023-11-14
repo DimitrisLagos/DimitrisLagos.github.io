@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.5.2.5:1", "", "UC 5.1 Improve congestion management to facilitate DERs penetration", "EARoot/EA5/EA2/EA5/EA825.htm", "179.png", "77", "0", "", "Deployment diagram0","{B36D7C14-D94A-43af-9259-510FCC43F00C}");
-tocTab[tocTab.length] = new Array("0.5.2.5:2", "", "UC 5.2  Integrate flexibility with the distribution grid to provide balancing services", "EARoot/EA5/EA2/EA5/EA827.htm", "179.png", "78", "0", "", "Deployment diagram0","{AB6F1D0D-3FE5-49f9-88C9-BF08F0858A39}");
-tocTab[tocTab.length] = new Array("0.5.2.5:3", "", "«Computer» BEMS", "EARoot/EA5/EA2/EA5/EA830.htm", "9.png", "E499", "0", "", "Node0","{A0186C60-7D9B-4583-BDB1-6734D92C4CEA}");
-tocTab[tocTab.length] = new Array("0.5.2.5:4", "", "«Computer» BFMS", "EARoot/EA5/EA2/EA5/EA831.htm", "9.png", "E496", "0", "", "Node0","{A609D6D9-C172-44e8-809E-B04BF37E71B0}");
-tocTab[tocTab.length] = new Array("0.5.2.5:5", "", "«Computer» DDHub", "EARoot/EA5/EA2/EA5/EA832.htm", "9.png", "E497", "0", "", "Node0","{7D9A1E8B-5B34-40ad-AEC3-92FFE2658505}");
-tocTab[tocTab.length] = new Array("0.5.2.5:6", "", "«Computer» HEMS", "EARoot/EA5/EA2/EA5/EA833.htm", "9.png", "E498", "0", "", "Node0","{7D049AF6-E0FD-4b70-B0F0-D96FF9A1BA18}");
-tocTab[tocTab.length] = new Array("0.5.2.5:7", "", "«Smart Meter» Smart Meter", "EARoot/EA5/EA2/EA5/EA836.htm", "9.png", "E563", "0", "", "Node0","{89B89F23-AD88-46fc-9852-CAC2D884321C}");
+tocTab[tocTab.length] = new Array("0.5.2.5:1", "", "UC 5.1 Improve congestion management to facilitate DERs penetration", "EARoot/EA5/EA2/EA5/EA853.htm", "179.png", "77", "0", "", "Deployment diagram0","{B36D7C14-D94A-43af-9259-510FCC43F00C}");
+tocTab[tocTab.length] = new Array("0.5.2.5:2", "", "UC 5.2  Integrate flexibility with the distribution grid to provide balancing services", "EARoot/EA5/EA2/EA5/EA855.htm", "179.png", "78", "0", "", "Deployment diagram0","{AB6F1D0D-3FE5-49f9-88C9-BF08F0858A39}");
+tocTab[tocTab.length] = new Array("0.5.2.5:3", "", "«Computer» BEMS", "EARoot/EA5/EA2/EA5/EA858.htm", "9.png", "E499", "0", "", "Node0","{A0186C60-7D9B-4583-BDB1-6734D92C4CEA}");
+tocTab[tocTab.length] = new Array("0.5.2.5:4", "", "«Computer» BFMS", "EARoot/EA5/EA2/EA5/EA859.htm", "9.png", "E496", "0", "", "Node0","{A609D6D9-C172-44e8-809E-B04BF37E71B0}");
+tocTab[tocTab.length] = new Array("0.5.2.5:5", "", "«Computer» DDHub", "EARoot/EA5/EA2/EA5/EA860.htm", "9.png", "E497", "0", "", "Node0","{7D9A1E8B-5B34-40ad-AEC3-92FFE2658505}");
+tocTab[tocTab.length] = new Array("0.5.2.5:6", "", "«Computer» HEMS", "EARoot/EA5/EA2/EA5/EA861.htm", "9.png", "E498", "0", "", "Node0","{7D049AF6-E0FD-4b70-B0F0-D96FF9A1BA18}");
+tocTab[tocTab.length] = new Array("0.5.2.5:7", "", "«Smart Meter» Smart Meter", "EARoot/EA5/EA2/EA5/EA864.htm", "9.png", "E563", "0", "", "Node0","{89B89F23-AD88-46fc-9852-CAC2D884321C}");
