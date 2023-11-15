@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>_ActivityGraph</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> _ActivityGraph </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA265.htm">Advanced Asset Management</a> / <a href="EA267.htm">UC 1.5 Advanced Asset Managemet </a> / <a href="EA268.htm">:UC 1.5 Advanced Asset Managemet </a> / <a href="EA274.htm">_ActivityGraph</a> / <a href="EA257.htm">_ActivityGraph</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../images/181.png" alt="Diagram"/> <a href="EA257.htm">_ActivityGraph</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA291.htm">Acknoledgement of operator&#39;s SCADA: Acknoledgement of operator SCADA</a></li>
+<li><img src="../../../images/98.png" alt="StateNode"/> <a href="EA294.htm">FlowEnd1</a></li>
+<li><img src="../../../images/56.png" alt="Decision"/> <a href="EA286.htm"></a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA287.htm">AAM software accesses data in the operator&#39;s SCADA database </a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA288.htm">AAM software accesses to weather forecasts from a weather service provider. </a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA289.htm">AAM software exports data  for short term asset condition calculation o SCADA database.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA290.htm">AAM software exports data to system operator through a user interface results on long term asset condition calculation.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA292.htm">Acknowledgement is sent by the system operator SCADA for short term asset condition results to AAM software.</a></li>
+<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA293.htm">End</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA295.htm">Request for AAM software execution by system operator for long term or short term asset condition calculation.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA296.htm">RTU receive measurements from GRID</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA297.htm">RTU sends measurements to system operator SCADA</a></li>
+<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA298.htm">Start</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA299.htm">System Operator provides historical electrical data and maintenance and failure data</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA300.htm">System Operator SCADA stores measurements to SCADA database.</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA258.png" usemap="#EA258" border="0" />
+
+<MAP NAME="EA258">
+<area shape="rect" coords="494,555,623,692" href="../../EA3/EA3/EA1/EA634.htm" target="_self">
+<area shape="rect" coords="258,1138,408,1257" href="../../EA3/EA3/EA1/EA639.htm" target="_self">
+<area shape="rect" coords="498,759,618,876" href="../../EA3/EA3/EA1/EA633.htm" target="_self">
+<area shape="rect" coords="267,1000,397,1071" href="../../EA3/EA3/EA1/EA643.htm" target="_self">
+<area shape="rect" coords="248,247,338,317" href="../../EA3/EA3/EA1/EA615.htm" target="_self">
+<area shape="rect" coords="258,1339,409,1438" href="../../EA3/EA3/EA1/EA601.htm" target="_self">
+<area shape="rect" coords="68,1551,88,1571" href="EA293.htm" target="_self">
+<area shape="rect" coords="11,1300,146,1470" href="EA292.htm" target="_self">
+<area shape="rect" coords="11,1131,146,1263" href="EA289.htm" target="_self">
+<area shape="rect" coords="11,968,146,1100" href="EA288.htm" target="_self">
+<area shape="rect" coords="11,815,146,909" href="EA287.htm" target="_self">
+<area shape="rect" coords="10,591,145,761" href="EA295.htm" target="_self">
+<area shape="rect" coords="340,939,360,959" href="EA294.htm" target="_self">
+<area shape="rect" coords="287,730,422,900" href="EA290.htm" target="_self">
+<area shape="rect" coords="282,546,417,697" href="EA299.htm" target="_self">
+<area shape="rect" coords="63,478,89,512" href="EA286.htm" target="_self">
+<area shape="rect" coords="11,328,146,441" href="EA300.htm" target="_self">
+<area shape="rect" coords="11,211,146,305" href="EA297.htm" target="_self">
+<area shape="rect" coords="11,101,146,176" href="EA296.htm" target="_self">
+<area shape="rect" coords="66,10,86,30" href="EA298.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">_ActivityGraph : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">08/11/2023 11:42:08</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">14/11/2023 17:33:24</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Dimitris</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{977C69B7-76D3-4f80-B627-CE48F3FFED3D}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

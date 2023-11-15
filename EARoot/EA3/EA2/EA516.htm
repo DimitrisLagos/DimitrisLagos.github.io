@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC 1.05 Advanced Asset Management</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> UC 1.05 Advanced Asset Management </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA478.htm">SGAM Information Layer</a> / <a href="EA530.htm">Standard and Information Object Mapping</a> / <a href="EA516.htm">UC 1.05 Advanced Asset Management</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA508.htm">Standard and Information Object Mapping</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA510.htm">UC 2.02</a></li>
+<li><img src="../../../images/175.png" alt=""/> <a href="EA512.htm">UC 3.1</a></li>
+<li><img src="../../../images/175.png" alt=""/> <a href="EA514.htm">UC 3.2</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA516.htm">UC 1.05 Advanced Asset Management</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA518.htm">UC 1.07 Investment Defferal</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA520.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA522.htm">UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA524.htm">UC 1.10 Establishment of a flexibility market and flexibility procurement</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA526.htm">UC1.04 Real Time Thermal Rating</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA532.htm">AAM Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA533.htm">AAM Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA535.htm">Aggregator Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA534.htm">Aggregator Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA536.htm">AMI specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA537.htm">BEMS Specific Data Model </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA538.htm">BEMS/HEMS Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA539.htm">BFMS Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA540.htm">Building Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA541.htm">DataModelStandard1</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA542.htm">DataModelStandard2</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA543.htm">DSO SCADA specific datamodel </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA544.htm">DSO SCADA specific datamodel </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA545.htm">EN 60870 (102/104) </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA546.htm">EN 60870 (102/104) </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA547.htm">EN 61850</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA548.htm">EN 61850</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA549.htm">Grid Planning Software Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA554.htm">Nodes Platform Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA555.htm">OCPP Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA556.htm">TSO SCADA specific datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA557.htm">TSO SCADA specific datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA558.htm">TSO/DSO Specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA559.htm">TSO/DSO Specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA560.htm">Weather forecast datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA561.htm">Weather forecast datamodel</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA531.htm">:Grid node structure</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA550.htm">InformationObject1</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA551.htm">InformationObject2</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA552.htm">InformationObject3</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA553.htm">InformationObject4</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA517.png" usemap="#EA517" border="0" />
+
+<MAP NAME="EA517">
+<area shape="rect" coords="481,530,597,648" href="../EA3/EA1/EA633.htm" target="_self">
+<area shape="rect" coords="603,778,746,896" href="../EA3/EA1/EA639.htm" target="_self">
+<area shape="rect" coords="297,678,387,748" href="EA547.htm" target="_self">
+<area shape="rect" coords="297,475,387,577" href="EA556.htm" target="_self">
+<area shape="rect" coords="1000,452,1090,554" href="EA543.htm" target="_self">
+<area shape="rect" coords="635,546,725,616" href="EA532.htm" target="_self">
+<area shape="rect" coords="207,145,297,247" href="EA558.htm" target="_self">
+<area shape="rect" coords="1000,643,1090,713" href="EA545.htm" target="_self">
+<area shape="rect" coords="1090,44,1180,146" href="EA560.htm" target="_self">
+<area shape="rect" coords="622,649,736,719" href="../EA3/EA1/EA642.htm" target="_self">
+<area shape="rect" coords="1226,60,1316,130" href="../EA3/EA1/EA643.htm" target="_self">
+<area shape="rect" coords="13,129,142,266" href="../EA3/EA1/EA634.htm" target="_self">
+<area shape="rect" coords="630,951,720,1021" href="../EA3/EA1/EA615.htm" target="_self">
+<area shape="rect" coords="622,142,729,218" href="../../EA4/EA1/EA2/EA723.htm" target="_self">
+<area shape="rect" coords="640,453,720,509" href="../../EA4/EA1/EA2/EA706.htm" target="_self">
+<area shape="rect" coords="151,313,216,395" href="../../EA4/EA1/EA2/EA726.htm" target="_self">
+<area shape="rect" coords="312,162,370,253" href="../../EA4/EA1/EA2/EA727.htm" target="_self">
+<area shape="rect" coords="1034,163,1104,263" href="../../EA4/EA1/EA2/EA712.htm" target="_self">
+<area shape="rect" coords="1156,291,1226,391" href="../../EA4/EA1/EA2/EA714.htm" target="_self">
+<area shape="rect" coords="143,749,210,812" href="../../EA4/EA1/EA2/EA720.htm" target="_self">
+<area shape="rect" coords="129,1096,219,1186" href="../../EA4/EA1/EA2/EA716.htm" target="_self">
+<area shape="rect" coords="629,1096,719,1186" href="../../EA4/EA1/EA2/EA719.htm" target="_self">
+<area shape="rect" coords="142,515,212,615" href="../../EA4/EA1/EA2/EA721.htm" target="_self">
+<area shape="rect" coords="637,310,716,391" href="../../EA4/EA1/EA2/EA701.htm" target="_self">
+<area shape="rect" coords="1159,750,1226,813" href="../../EA4/EA1/EA2/EA680.htm" target="_self">
+<area shape="rect" coords="1156,530,1226,630" href="../../EA4/EA1/EA2/EA682.htm" target="_self">
+<area shape="rect" coords="1146,1096,1236,1186" href="../../EA4/EA1/EA2/EA696.htm" target="_self">
+<area shape="rect" coords="346,10,871,50" href="EA571.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">UC 1.05 Advanced Asset Management : Information Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">08/11/2023 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">14/11/2023 17:09:04</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">lpons</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{1C367CD4-6BBF-4d0a-83AA-E631516DCE02}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">This Diagram is of the Type &quot;SGAM Information Layer&quot;. Referring to this, the Toolbox &quot;SGAM Information Layer&quot; is visible.&lt;br/&gt;Use the physical components and the &quot;Information Object Flow&quot; Relation to illustrate, which Data Model Standards are associated to the physical components.&lt;br/&gt;Next, depict which &quot;Information Objects&quot; are provided by these Data Model Standards.&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
