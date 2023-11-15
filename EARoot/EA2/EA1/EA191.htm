@@ -69,7 +69,7 @@
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA157.htm"> HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a> / <a href="EA160.htm">:UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a> / <a href="EA181.htm">_SequenceDiagram</a> / <a href="EA191.htm">Building EMS</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA155.htm"> HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a> / <a href="EA159.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management</a> / <a href="EA167.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management_SequenceDiagram</a> / <a href="EA191.htm">Building EMS</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,7 +84,7 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA181.htm">_SequenceDiagram</a></ul>
+<a href="EA167.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management_SequenceDiagram</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
@@ -93,11 +93,11 @@
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">11/11/2023 16:24:02</td>
+			<td width="85%" class="ObjectDetailsValue">15/11/2023 12:42:13</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">11/11/2023 16:24:02</td>
+			<td class="ObjectDetailsValue">15/11/2023 12:42:13</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,17 +142,18 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{721E9136-EFA8-4934-8B59-28C620091C31}</td>
+			<td class="ObjectDetailsValue">{10145D3F-D9E9-42c8-8977-03D742A04706}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA149.htm">1_Basic_Path</a></td>
+			<td class="ObjectDetailsValue"><a href="EA147.htm">1_Basic_Path</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent != null ? parent.toggleItem('MessagesTo') : toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent != null ? parent.toggleItem('MessagesFrom') : toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
 		<div class="ItemBody" id="MessagesToTable">
 			<table class="Table ea_table">
@@ -162,12 +163,63 @@
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top"><a href="EA192.htm">Building Flexibility Management System: Building Flexibility Management System</a></td>
-					<td width="50%" class="TableRow" valign="top">1.Building EMS share prosumer's comfort preferences and daily schedules to Building Flexibility Management System.</td>
+					<td width="50%" class="TableRow" valign="top">2.The Building EMS sends building measurements to Building flexibility management system.</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage241" /></button>Details:
-							<div id="detailsDIVMessage241" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage243" /></button>Details:
+							<div id="detailsDIVMessage243" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA190.htm">Building Controllers: Building Controllers</a></td>
+					<td width="50%" class="TableRow" valign="top">6.Building EMS sends control actions to building controllers.</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage244" /></button>Details:
+							<div id="detailsDIVMessage244" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA192.htm">Building Flexibility Management System: Building Flexibility Management System</a></td>
+					<td width="50%" class="TableRow" valign="top">5.building flexibility management system sends control actions,  asset consumption and performance monitoring data to building EMS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage245" /></button>Details:
+							<div id="detailsDIVMessage245" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA190.htm">Building Controllers: Building Controllers</a></td>
+					<td width="50%" class="TableRow" valign="top">1.Building controllers provide measurements to building EMS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage246" /></button>Details:
+							<div id="detailsDIVMessage246" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
