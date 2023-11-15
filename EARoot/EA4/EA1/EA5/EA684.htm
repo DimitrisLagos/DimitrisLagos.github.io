@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC 5.1 Improve congestion management to facilitate DERs penetration</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> UC 5.1 Improve congestion management to facilitate DERs penetration </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Model</a> / <a href="../../EA557.htm">SGAM Communication Layer</a> / <a href="../EA560.htm">High Level Use Case Realization</a> / <a href="EA688.htm">Swiss Demo</a> / <a href="EA684.htm">UC 5.1 Improve congestion management to facilitate DERs penetration</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/179.png" alt="Diagram"/> <a href="EA684.htm">UC 5.1 Improve congestion management to facilitate DERs penetration</a></li>
+<li><img src="../../../../images/179.png" alt="Diagram"/> <a href="EA686.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA689.htm">Aggregator Platform</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA690.htm">Aggregator Platform</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA707.htm">DER Smart Meter</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA708.htm">DER Smart Meter</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA691.htm">EMS</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA692.htm">EMS</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA693.htm">EVSE Smart Meter</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA694.htm">EVSE Smart Meter</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA695.htm">Gateway</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA696.htm">Gateway</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA709.htm">home grid connection</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA710.htm">home grid connection</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA697.htm">Netwrok Switch</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA698.htm">Netwrok Switch</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA711.htm">PLC concentrator</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA712.htm">PLC concentrator</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA703.htm">Radio Gateway</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA704.htm">Radio Gateway</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA705.htm">Smart Meter</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA713.htm">Solar</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA714.htm">Solar</a></li>
+<li><img src="../../../../images/9.png" alt="Node"/> <a href="EA706.htm">Transformer</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA685.png" usemap="#EA685" border="0" />
+
+<MAP NAME="EA685">
+<area shape="rect" coords="1118,905,1208,975" href="../../../EA5/EA1/EA819.htm" target="_self">
+<area shape="rect" coords="718,907,808,977" href="EA706.htm" target="_self">
+<area shape="rect" coords="1279,768,1369,838" href="../../../EA5/EA2/EA5/EA957.htm" target="_self">
+<area shape="rect" coords="1181,215,1271,285" href="EA689.htm" target="_self">
+<area shape="rect" coords="1181,388,1271,458" href="EA691.htm" target="_self">
+<area shape="rect" coords="804,173,883,245" href="EA721.htm" target="_self">
+<area shape="rect" coords="932,307,989,368" href="EA718.htm" target="_self">
+<area shape="rect" coords="716,258,778,311" href="EA722.htm" target="_self">
+<area shape="rect" coords="813,311,875,362" href="EA717.htm" target="_self">
+<area shape="rect" coords="716,414,755,462" href="EA720.htm" target="_self">
+<area shape="rect" coords="838,405,900,462" href="EA719.htm" target="_self">
+<area shape="rect" coords="884,576,961,623" href="EA703.htm" target="_self">
+<area shape="rect" coords="806,506,864,558" href="EA697.htm" target="_self">
+<area shape="rect" coords="729,586,803,634" href="EA716.htm" target="_self">
+<area shape="rect" coords="873,673,935,708" href="EA695.htm" target="_self">
+<area shape="rect" coords="1120,768,1210,838" href="EA693.htm" target="_self">
+<area shape="rect" coords="727,724,800,794" href="EA715.htm" target="_self">
+<area shape="rect" coords="1005,768,1096,838" href="EA707.htm" target="_self">
+<area shape="rect" coords="1279,887,1369,977" href="EA709.htm" target="_self">
+<area shape="rect" coords="867,748,944,790" href="EA711.htm" target="_self">
+<area shape="rect" coords="1004,886,1094,976" href="EA713.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">UC 5.1 Improve congestion management to facilitate DERs penetration : Component Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">04/11/2023 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">04/11/2023 12:59:00</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Dimitris</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{AB23AA6A-AD6B-46cc-80CA-8C4FCB4A2B6A}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
