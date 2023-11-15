@@ -69,7 +69,7 @@
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA201.htm">Advanced Asset Management</a> / <a href="EA202.htm">UC 1.5 Advanced Asset Managemet </a> / <a href="EA203.htm">:UC 1.5 Advanced Asset Managemet </a> / <a href="EA210.htm">_SequenceDiagram</a> / <a href="EA240.htm">System Operator: System Operator</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA201.htm">Advanced Asset Management</a> / <a href="EA202.htm">UC 1.5 Advanced Asset Managemet </a> / <a href="EA203.htm">:UC 1.5 Advanced Asset Managemet </a> / <a href="EA210.htm">_SequenceDiagram</a> / <a href="EA240.htm">System Operator</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -93,11 +93,11 @@
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14/11/2023 17:35:08</td>
+			<td width="85%" class="ObjectDetailsValue">15/11/2023 09:45:53</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14/11/2023 17:35:08</td>
+			<td class="ObjectDetailsValue">15/11/2023 09:45:53</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,7 +142,7 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{01E3BBF6-7E71-491b-BCEC-644B0FC636E4}</td>
+			<td class="ObjectDetailsValue">{629FA1C8-6090-47a5-A3D1-76A89B426192}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
@@ -162,22 +162,8 @@
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA240.htm">System Operator: System Operator</a></td>
-					<td width="50%" class="TableRow" valign="top">1.System Operator provides historical electrical data and maintenance and failure data</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage331" /></button>Details:
-							<div id="detailsDIVMessage331" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
 					<td width="50%" class="TableRow" valign="top"><a href="EA241.htm">System operator SCADA: System operator SCADA</a></td>
-					<td width="50%" class="TableRow" valign="top">8.Acknowledgement is sent by the system operator SCADA for short term asset condition results to AAM software.</td>
+					<td width="50%" class="TableRow" valign="top">3.System Operator SCADA stores measurements to SCADA database.</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
@@ -190,7 +176,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA236.htm">AAM Software: AAM Software</a></td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA241.htm">System operator SCADA: System operator SCADA</a></td>
 					<td width="50%" class="TableRow" valign="top">8.Acknowledgement is sent by the system operator SCADA for short term asset condition results to AAM software.</td>
 				</tr>
 		   		<tr>
@@ -204,7 +190,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA241.htm">System operator SCADA: System operator SCADA</a></td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA239.htm">SCADA Database: SCADA Database</a></td>
 					<td width="50%" class="TableRow" valign="top">3.System Operator SCADA stores measurements to SCADA database.</td>
 				</tr>
 		   		<tr>
@@ -218,13 +204,27 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA239.htm">SCADA Database: SCADA Database</a></td>
-					<td width="50%" class="TableRow" valign="top">3.System Operator SCADA stores measurements to SCADA database.</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA236.htm">AAM Software: AAM Software</a></td>
+					<td width="50%" class="TableRow" valign="top">1.System Operator provides historical electrical data and maintenance and failure data to AAM software.</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
 						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage335" /></button>Details:
 							<div id="detailsDIVMessage335" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA236.htm">AAM Software: AAM Software</a></td>
+					<td width="50%" class="TableRow" valign="top">8.Acknowledgement is sent by the system operator SCADA for short term asset condition results to AAM software.</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage336" /></button>Details:
+							<div id="detailsDIVMessage336" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
@@ -246,20 +246,6 @@
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage336" /></button>Details:
-							<div id="detailsDIVMessage336" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA240.htm">System Operator: System Operator</a></td>
-					<td width="50%" class="TableRow" valign="top">1.System Operator provides historical electrical data and maintenance and failure data</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
 						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage337" /></button>Details:
 							<div id="detailsDIVMessage337" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
@@ -269,8 +255,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA236.htm">AAM Software: AAM Software</a></td>
-					<td width="50%" class="TableRow" valign="top">2.AAM software exports data to system operator through a user interface results on long term asset condition calculation.</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA238.htm">RTU: RTU</a></td>
+					<td width="50%" class="TableRow" valign="top">2.RTU sends measurements to system operator SCADA</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
@@ -283,8 +269,8 @@
 					</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA238.htm">RTU: RTU</a></td>
-					<td width="50%" class="TableRow" valign="top">2.RTU sends measurements to system operator SCADA</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA236.htm">AAM Software: AAM Software</a></td>
+					<td width="50%" class="TableRow" valign="top">2.AAM software exports data to system operator through a user interface results on long term asset condition calculation.</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
