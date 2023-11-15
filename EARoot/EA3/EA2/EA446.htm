@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC 1.10 Establishment of a flexibility market and flexibility procurement</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> UC 1.10 Establishment of a flexibility market and flexibility procurement </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA407.htm">SGAM Information Layer</a> / <a href="EA450.htm">Standard and Information Object Mapping</a> / <a href="EA446.htm">UC 1.10 Establishment of a flexibility market and flexibility procurement</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../images/175.png" alt=""/> <a href="EA434.htm">Standard and Information Object Mapping</a></li>
+<li><img src="../../../images/175.png" alt=""/> <a href="EA436.htm">UC 2.02</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA438.htm">UC 1.05 Advanced Asset Management</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA440.htm">UC 1.07 Investment Defferal</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA442.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA444.htm">UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA446.htm">UC 1.10 Establishment of a flexibility market and flexibility procurement</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA448.htm">UC1.04 Real Time Thermal Rating</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA452.htm">AAM Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA453.htm">Aggregator Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA454.htm">AMI specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA455.htm">BEMS Specific Data Model </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA456.htm">BEMS/HEMS Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA457.htm">BFMS Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA458.htm">Building Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA459.htm">DataModelStandard1</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA460.htm">DataModelStandard2</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA461.htm">DSO SCADA specific datamodel </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA462.htm">EN 60870 (102/104) </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA463.htm">EN 61850</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA464.htm">Grid Planning Software Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA469.htm">Nodes Platform Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA470.htm">TSO SCADA specific datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA471.htm">TSO/DSO Specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA472.htm">Weather forecast datamodel</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA451.htm">:Grid node structure</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA465.htm">InformationObject1</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA466.htm">InformationObject2</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA467.htm">InformationObject3</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA468.htm">InformationObject4</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA447.png" usemap="#EA447" border="0" />
+
+<MAP NAME="EA447">
+<area shape="rect" coords="1508,109,1598,179" href="../EA3/EA1/EA532.htm" target="_self">
+<area shape="rect" coords="1244,269,1334,339" href="EA453.htm" target="_self">
+<area shape="rect" coords="1244,372,1334,442" href="EA457.htm" target="_self">
+<area shape="rect" coords="1495,442,1624,579" href="../EA3/EA1/EA526.htm" target="_self">
+<area shape="rect" coords="1244,501,1334,571" href="EA456.htm" target="_self">
+<area shape="rect" coords="1431,708,1641,807" href="../EA3/EA1/EA525.htm" target="_self">
+<area shape="rect" coords="1383,916,1495,986" href="../EA3/EA1/EA527.htm" target="_self">
+<area shape="rect" coords="1500,268,1606,367" href="../EA3/EA1/EA531.htm" target="_self">
+<area shape="rect" coords="1257,774,1347,844" href="EA458.htm" target="_self">
+<area shape="rect" coords="411,77,501,179" href="EA469.htm" target="_self">
+<area shape="rect" coords="32,101,122,219" href="../EA3/EA1/EA544.htm" target="_self">
+<area shape="rect" coords="32,844,122,943" href="../EA3/EA1/EA536.htm" target="_self">
+<area shape="rect" coords="32,675,122,774" href="../EA3/EA1/EA535.htm" target="_self">
+<area shape="rect" coords="1021,39,1144,157" href="../EA3/EA1/EA534.htm" target="_self">
+<area shape="rect" coords="14,540,140,610" href="../EA3/EA1/EA523.htm" target="_self">
+<area shape="rect" coords="32,306,122,462" href="../EA3/EA1/EA522.htm" target="_self">
+<area shape="rect" coords="1036,212,1126,282" href="../EA3/EA1/EA521.htm" target="_self">
+<area shape="rect" coords="1195,100,1347,218" href="../EA3/EA1/EA543.htm" target="_self">
+<area shape="rect" coords="469,363,539,463" href="../../EA5/EA2/EA4/EA883.htm" target="_self">
+<area shape="rect" coords="352,352,422,452" href="../../EA5/EA2/EA4/EA891.htm" target="_self">
+<area shape="rect" coords="410,196,500,253" href="../../EA5/EA1/EA747.htm" target="_self">
+<area shape="rect" coords="1067,1079,1157,1149" href="../../EA5/EA2/EA2/EA857.htm" target="_self">
+<area shape="rect" coords="635,932,725,1013" href="../../EA5/EA1/EA836.htm" target="_self">
+<area shape="rect" coords="841,713,931,783" href="../../EA5/EA1/EA834.htm" target="_self">
+<area shape="rect" coords="934,929,1024,1019" href="../../EA5/EA1/EA757.htm" target="_self">
+<area shape="rect" coords="935,1084,1025,1154" href="../../EA5/EA1/EA814.htm" target="_self">
+<area shape="rect" coords="634,1070,724,1160" href="../../EA5/EA1/EA793.htm" target="_self">
+<area shape="rect" coords="1072,546,1149,607" href="../../EA5/EA2/EA5/EA951.htm" target="_self">
+<area shape="rect" coords="634,547,705,604" href="../../EA5/EA2/EA5/EA954.htm" target="_self">
+<area shape="rect" coords="864,424,934,486" href="../../EA5/EA2/EA5/EA952.htm" target="_self">
+<area shape="rect" coords="864,270,938,327" href="../../EA5/EA1/EA829.htm" target="_self">
+<area shape="rect" coords="374,10,899,50" href="EA479.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">UC 1.10 Establishment of a flexibility market and flexibility procurement : Information Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">17/06/2013 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">13/11/2023 13:57:25</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">lpons</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{475A257D-61AC-48ec-B3C7-964DDD1BC247}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">This Diagram is of the Type &quot;SGAM Information Layer&quot;. Referring to this, the Toolbox &quot;SGAM Information Layer&quot; is visible.&lt;br/&gt;Use the physical components and the &quot;Information Object Flow&quot; Relation to illustrate, which Data Model Standards are associated to the physical components.&lt;br/&gt;Next, depict which &quot;Information Objects&quot; are provided by these Data Model Standards.&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
