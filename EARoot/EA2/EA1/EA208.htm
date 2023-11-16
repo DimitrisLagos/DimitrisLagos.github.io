@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Building Flexibility Management System generates the flexibility forecast and sent it to the Aggregator</title>
+<title>UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Building Flexibility Management System generates the flexibility forecast and sent it to the Aggregator </h1>
+			<h1> UC 5.2 Integrate flexibility with the distribution grid to provide balancing services </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA177.htm"> HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a> / <a href="EA180.htm">:UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a> / <a href="EA201.htm">_ActivityGraph</a> / <a href="EA208.htm">Building Flexibility Management System generates the flexibility forecast and sent it to the Aggregator</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA89.htm">SGAM Function Layer</a> / <a href="EA197.htm"> HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a> / <a href="EA208.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,34 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA201.htm">_ActivityGraph</a></ul>
+<li><img src="../../../images/175.png" alt=""/> <a href="EA169.htm">HighLevelUseCase1</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA350.htm"> BEMS send flexibility forecasts and baseline consumption  to Aggregators/FSPs.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA351.htm">Aggregators/FSPs send flexibility sell offer, flexibility forecast and baseline consumption to market platform.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA352.htm">BEMS send control action to building controllers.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA353.htm">BEMS send flexibility forecast and baseline consumption to DSO EMS</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA354.htm">DSO EMS forecasts the state of the grid, production and consumption.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA355.htm">DSO places flexibility buy offer to market platform.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA356.htm">DSO SCADA updates the DSO SCADA Database with measurements</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA357.htm">DSO verifies if flexibility can be activated according to grid constraints to BEMS</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA358.htm">GRID assets send electrical measurements to RTU</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA359.htm">Market platform sends flexibility activation schedule to BEMS</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA360.htm">RTU send electrical measurements to DSO SCADA</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA361.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a></li>
+<li><img src="../../../images/207.png" alt="Interaction"/> <a href="EA362.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_SequenceDiagram</a></li>
+</ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Building Flexibility Management System generates the flexibility forecast and sent it to the Aggregator  : Public   Action</span>
+	<span class="ObjectTitle">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services  : Public  &lt;&lt;High Level Use Case&gt;&gt; UseCase</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">11/11/2023 16:20:27</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:42:33</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">11/11/2023 16:20:27</td>
+			<td class="ObjectDetailsValue">16/11/2023 10:17:25</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,70 +156,21 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{E50CC5A1-856B-4cb5-BCD3-E9639740AF78}</td>
+			<td class="ObjectDetailsValue">{8203B4F0-C3E7-4490-B5A2-B1959088B561}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA157.htm">_ActivityGraph</a></td>
+			<td class="ObjectDetailsValue"><a href="EA145.htm"> UC 5.2</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent != null ? parent.toggleItem('FlowTo') : toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
-			<li onClick="parent != null ? parent.toggleItem('FlowFrom') : toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent != null ? parent.toggleItem('Scenario') : toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
 			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
-		<div class="ItemBody" id="FlowToTable">
-			<table class="Table ea_table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA209.htm">End</a><br />
-						StateNode &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow241" /></button>Details:
-							<div id="detailsDIVLinkFlow241" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="ItemBody" id="FlowFromTable">
-			<table class="Table ea_table">
-				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Name</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top">
-						<a href="EA207.htm">Building Flexibility Management System executes initial settings algorithms formulate the appropriate optimization framework </a><br />
-						Action &nbsp;
-					</td>
-					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
-				</tr>
-				<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow242" /></button>Details:
-							<div id="detailsDIVLinkFlow242" class="DetailsDiv" >
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</div>
 <div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -213,79 +178,92 @@
 			<td width="50%" class="TableHeading">Value</td>
 		</tr>
 					<tr>
-				<td width="50%" class="TableRow" valign="top">step_guid</td>
-				<td width="50%" class="TableRow" valign="top">{2088D5E6-BC5E-426a-BE5E-78B9A920CD28}</td>
+				<td width="50%" class="TableRow" valign="top">Toolbox Version</td>
+				<td width="50%" class="TableRow" valign="top">0.6</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					Details:
-						&nbsp;
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">trigger</td>
-				<td width="50%" class="TableRow" valign="top">User</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					Details:
-						&nbsp;
+						<div class="ObjectDetailsNotes">Default: 0.6<br /></div>
+
 				</td>
 			</tr>
 	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+</div>		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Basic Path</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent">
+						Details:
+							<div id="detailsDIVScenario200" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent">
+Steps:
+	<div id="stepDIVScenario200" class="StrucuturedDiv" >
+		<div class="ObjectDetailsNotes">1. GRID assets send electrical measurements to RTU&lt;br/&gt; <br />2. RTU send electrical measurements to DSO SCADA&lt;br/&gt; <br />3. DSO SCADA updates the DSO SCADA Database with measurements&lt;br/&gt; <br />4. DSO EMS forecasts the state of the grid, production and consumption.&lt;br/&gt; <br />5. DSO places flexibility buy offer to market platform.&lt;br/&gt; <br /></div>
+	</div>
+</div>
+
+						<div class="StrucuturedDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario201" /></button>Exceptions:				<div id="detailsDIVScenario201" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">5a. FSPs (at End)<br /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">FSPs</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent">
+						Details:
+							<div id="detailsDIVScenario203" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent">
+Steps:
+	<div id="stepDIVScenario203" class="StrucuturedDiv" >
+		<div class="ObjectDetailsNotes">1. BEMS send flexibility forecast and baseline consumption to DSO EMS&lt;br/&gt; <br />2. DSO verifies if flexibility can be activated according to grid constraints to BEMS&lt;br/&gt; <br />3.  BEMS send flexibility forecasts and baseline consumption&#160;&#160;to Aggregators/FSPs.&lt;br/&gt; <br />4. Aggregators/FSPs send flexibility sell offer, flexibility forecast and baseline consumption to market platform.&lt;br/&gt; <br />5. Market platform sends flexibility activation schedule to BEMS&lt;br/&gt; <br />6. BEMS send control action to building controllers.&lt;br/&gt; <br /></div>
+	</div>
+</div>
+
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
 			<table class="Table ea_table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">kind:</td>
-				<td width="70%" class="TableRow">CallBehavior</td>
+				<td width="30%" class="TableRow">_makeComposite:</td>
+				<td width="70%" class="TableRow">True</td>
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isOrdered:</td>
-				<td width="70%" class="TableRow">false</td>
+				<td width="30%" class="TableRow">_defaultDiagramType:</td>
+				<td width="70%" class="TableRow">SGAM Function Layer</td>
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isLocallyReentrant:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isUnmarshall:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isReplaceAll:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isSynchronous:</td>
-				<td width="70%" class="TableRow">true</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isDestroyLinks:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isDestroyOwnedObjects:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isRemoveDuplicates:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
-			<tr>
-				<td width="30%" class="TableRow">isDirect:</td>
-				<td width="70%" class="TableRow">false</td>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
 			</tr>
 
 
@@ -300,10 +278,73 @@
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA3/EA1/EA668.htm">«Information Object» Flexibility Forecasts</a></td>
-					<td width="10%" class="TableRow" valign="top">InformationItem</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA609.htm">«Logical Actor» DSO SCADA Database</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA591.htm">«Logical Actor» DSO SCADA</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA590.htm">«Logical Actor» DSO EMS</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA610.htm">«Logical Actor» Grid</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA586.htm">«Logical Actor» BEMS</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA612.htm">«Logical Actor» RTU</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA589.htm">«Logical Actor» DSO</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA601.htm">«Logical Actor» Market Platform</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA583.htm">«Logical Actor» Aggregators/FSPs</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../EA5/EA587.htm">«Logical Actor» Building Controllers</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
