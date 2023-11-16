@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3:1", "", "«Business Goal» Citizen and stakeholder empowerment", "EARoot/EA1/EA3/EA39.htm", "19.png", "E952", "0", "", "Requirement0","{4E9377CD-6CB5-4800-8385-6630A4E69D39}");
-tocTab[tocTab.length] = new Array("0.1.3:2", "", "«Business Goal» Decarbonization of EU society", "EARoot/EA1/EA3/EA40.htm", "19.png", "E716", "0", "", "Requirement0","{0E55FF4B-6CFF-4b2b-9095-1ED318B81139}");
-tocTab[tocTab.length] = new Array("0.1.3:3", "", "«Business Goal» Decarbonization of EU society", "EARoot/EA1/EA3/EA41.htm", "19.png", "E786", "0", "", "Requirement0","{CB5FEBE3-8238-4608-AFE5-8DA72F424B78}");
-tocTab[tocTab.length] = new Array("0.1.3:4", "", "«Business Goal» Ensure quality of supply in a context of increase of RES", "EARoot/EA1/EA3/EA42.htm", "19.png", "E717", "0", "", "Requirement0","{A0A80A32-FD5F-43ac-8915-15E247DC87DC}");
+tocTab[tocTab.length] = new Array("0.1.3:1", "", "«Business Goal» Citizen and stakeholder empowerment", "EARoot/EA1/EA3/EA30.htm", "19.png", "E952", "0", "", "Requirement0","{4E9377CD-6CB5-4800-8385-6630A4E69D39}");
+tocTab[tocTab.length] = new Array("0.1.3:2", "", "«Business Goal» Decarbonization of EU society", "EARoot/EA1/EA3/EA31.htm", "19.png", "E716", "0", "", "Requirement0","{0E55FF4B-6CFF-4b2b-9095-1ED318B81139}");
+tocTab[tocTab.length] = new Array("0.1.3:3", "", "«Business Goal» Decarbonization of EU society", "EARoot/EA1/EA3/EA32.htm", "19.png", "E786", "0", "", "Requirement0","{CB5FEBE3-8238-4608-AFE5-8DA72F424B78}");
+tocTab[tocTab.length] = new Array("0.1.3:4", "", "«Business Goal» Ensure quality of supply in a context of increase of RES", "EARoot/EA1/EA3/EA33.htm", "19.png", "E717", "0", "", "Requirement0","{A0A80A32-FD5F-43ac-8915-15E247DC87DC}");
