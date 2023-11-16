@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA11.htm">SGAM Business Layer</a> / <a href="EA137.htm">Business use cases</a> / <a href="EA165.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</a> / <a href="EA326.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a> / <a href="EA135.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../images/181.png" alt=""/> <a href="EA135.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a></li>
+<li><img src="../../../images/7.png" alt="UseCase"/> <a href="EA340.htm">HighLevelUseCase1</a></li>
+<li><img src="../../../images/98.png" alt="StateNode"/> <a href="EA338.htm">FlowEnd1</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA328.htm"> BEMS send flexibility forecasts and baseline consumption  to Aggregators/FSPs.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA329.htm">Aggregators/FSPs send flexibility sell offer, flexibility forecast and baseline consumption to market platform.</a></li>
+<li><img src="../../../images/56.png" alt="Decision"/> <a href="EA330.htm">Alternate1</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA331.htm">BEMS send control action to building controllers.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA332.htm">BEMS send flexibility forecast and baseline consumption to DSO EMS</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA333.htm">DSO EMS forecasts the state of the grid, production and consumption.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA334.htm">DSO places flexibility buy offer to market platform.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA335.htm">DSO SCADA updates the DSO SCADA Database with measurements</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA336.htm">DSO verifies if flexibility can be activated according to grid constraints to BEMS</a></li>
+<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA337.htm">End</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA339.htm">GRID assets send electrical measurements to RTU</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA341.htm">Market platform sends flexibility activation schedule to BEMS</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA342.htm">RTU send electrical measurements to DSO SCADA</a></li>
+<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA343.htm">Start</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA136.png" usemap="#EA136" border="0" />
+
+<MAP NAME="EA136">
+<area shape="rect" coords="21,815,111,913" href="../../EA3/EA3/EA1/EA841.htm" target="_self">
+<area shape="rect" coords="454,121,597,220" href="../../EA3/EA3/EA802.htm" target="_self">
+<area shape="rect" coords="454,407,596,487" href="../../EA3/EA3/EA1/EA834.htm" target="_self">
+<area shape="rect" coords="634,1583,724,1653" href="../../EA3/EA3/EA1/EA822.htm" target="_self">
+<area shape="rect" coords="617,987,743,1057" href="../../EA3/EA3/EA1/EA813.htm" target="_self">
+<area shape="rect" coords="626,1438,732,1537" href="../../EA3/EA3/EA1/EA826.htm" target="_self">
+<area shape="rect" coords="634,772,724,842" href="../../EA3/EA3/EA1/EA827.htm" target="_self">
+<area shape="rect" coords="634,1140,724,1239" href="../../EA3/EA3/EA1/EA829.htm" target="_self">
+<area shape="rect" coords="223,948,243,968" href="EA337.htm" target="_self">
+<area shape="rect" coords="364,948,499,1080" href="EA336.htm" target="_self">
+<area shape="rect" coords="420,1695,440,1715" href="EA338.htm" target="_self">
+<area shape="rect" coords="363,1567,498,1661" href="EA331.htm" target="_self">
+<area shape="rect" coords="364,1457,499,1551" href="EA341.htm" target="_self">
+<area shape="rect" coords="364,1272,499,1442" href="EA329.htm" target="_self">
+<area shape="rect" coords="364,1125,499,1257" href="EA328.htm" target="_self">
+<area shape="rect" coords="221,705,247,739" href="EA330.htm" target="_self">
+<area shape="rect" coords="364,774,499,906" href="EA332.htm" target="_self">
+<area shape="rect" coords="166,813,301,907" href="EA334.htm" target="_self">
+<area shape="rect" coords="167,535,302,648" href="EA333.htm" target="_self">
+<area shape="rect" coords="167,371,302,484" href="EA335.htm" target="_self">
+<area shape="rect" coords="167,226,302,320" href="EA342.htm" target="_self">
+<area shape="rect" coords="167,81,302,175" href="EA339.htm" target="_self">
+<area shape="rect" coords="222,10,242,30" href="EA343.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 10:04:21</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 10:13:21</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Dimitris</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{1B3D9DA2-E4A6-4c85-A7F8-FDB3E22687B2}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
