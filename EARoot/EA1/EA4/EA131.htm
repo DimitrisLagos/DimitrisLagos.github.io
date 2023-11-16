@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC 5.1 Improve congestion management to facilitate DERs penetration_ActivityGraph</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> UC 5.1 Improve congestion management to facilitate DERs penetration_ActivityGraph </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA11.htm">SGAM Business Layer</a> / <a href="EA137.htm">Business use cases</a> / <a href="EA164.htm">UC 5.1 Improve congestion management to facilitate DERs penetration</a> / <a href="EA291.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_ActivityGraph</a> / <a href="EA131.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_ActivityGraph</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../images/181.png" alt=""/> <a href="EA131.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_ActivityGraph</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA294.htm">BEMS send control signals to building controllers.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA295.htm">DSO EMS collects flexibility forecasts from BEMS</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA296.htm">DSO EMS collects real time and historical electrical data from DSO SCADA Database. </a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA297.htm">DSO EMS forecasts the state of the distribution system, consumption and production and computes the required flexibility activation.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA298.htm">DSO EMS transmit flexibility activation commands to BEMS</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA299.htm">DSO SCADA updates the DSO SCADA Database with measurements </a></li>
+<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA300.htm">End</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA301.htm">Grid assets send electrical measurements to RTU</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA302.htm">RTU send measurements to DSO SCADA</a></li>
+<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA303.htm">Start</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA132.png" usemap="#EA132" border="0" />
+
+<MAP NAME="EA132">
+<area shape="rect" coords="392,288,535,387" href="../../EA3/EA3/EA802.htm" target="_self">
+<area shape="rect" coords="392,574,534,654" href="../../EA3/EA3/EA1/EA834.htm" target="_self">
+<area shape="rect" coords="372,1284,462,1354" href="../../EA3/EA3/EA1/EA822.htm" target="_self">
+<area shape="rect" coords="372,1034,463,1095" href="../../EA3/EA3/EA1/EA827.htm" target="_self">
+<area shape="rect" coords="67,1522,87,1542" href="EA300.htm" target="_self">
+<area shape="rect" coords="10,1369,145,1463" href="EA294.htm" target="_self">
+<area shape="rect" coords="10,1178,145,1310" href="EA298.htm" target="_self">
+<area shape="rect" coords="10,1017,145,1111" href="EA295.htm" target="_self">
+<area shape="rect" coords="10,739,145,966" href="EA297.htm" target="_self">
+<area shape="rect" coords="10,548,145,680" href="EA296.htm" target="_self">
+<area shape="rect" coords="10,376,145,489" href="EA299.htm" target="_self">
+<area shape="rect" coords="10,242,145,317" href="EA302.htm" target="_self">
+<area shape="rect" coords="10,89,145,183" href="EA301.htm" target="_self">
+<area shape="rect" coords="67,10,87,30" href="EA303.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">UC 5.1 Improve congestion management to facilitate DERs penetration_ActivityGraph : Activity diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:26:15</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:30:58</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Dimitris</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{9031D5F1-B7C1-4852-860E-ABF38CF11119}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
