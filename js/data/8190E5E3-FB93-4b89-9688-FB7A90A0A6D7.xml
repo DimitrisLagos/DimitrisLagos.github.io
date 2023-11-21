@@ -1,5 +1,5 @@
 tocTab[tocTab.length] = new Array("0.2.5:1", "", "«Logical Actor» AAM Software", "EARoot/EA2/EA5/EA630.htm", "6.png", "E797", "0", "", "Actor0","{70C7BB95-163A-4138-9D92-5617A51A6CF8}");
-tocTab[tocTab.length] = new Array("0.2.5:2", "", "«Logical Actor» Aggregator", "EARoot/EA2/EA5/EA631.htm", "6.png", "E958", "0", "", "Actor0","{55768242-F548-4f32-86B6-480D67C7A617}");
+tocTab[tocTab.length] = new Array("0.2.5:2", "", "«Logical Actor» Aggregators/FSPs", "EARoot/EA2/EA5/EA631.htm", "6.png", "E958", "0", "", "Actor0","{55768242-F548-4f32-86B6-480D67C7A617}");
 tocTab[tocTab.length] = new Array("0.2.5:3", "", "«Logical Actor» Aggregators/FSPs", "EARoot/EA2/EA5/EA632.htm", "6.png", "E1045", "0", "", "Actor0","{7A1C7E41-69FF-44ab-8C9C-E7163D313BD3}");
 tocTab[tocTab.length] = new Array("0.2.5:4", "", "«Logical Actor» Amibit Platform", "EARoot/EA2/EA5/EA633.htm", "6.png", "E1373", "0", "", "Actor0","{0FB234AC-9597-4c5a-B69C-81A9FF70308A}");
 tocTab[tocTab.length] = new Array("0.2.5:5", "", "«Logical Actor» Avantcar Platform", "EARoot/EA2/EA5/EA634.htm", "6.png", "E1347", "0", "", "Actor0","{91A7C8BF-D966-49b6-8AF4-46CB981F12CF}");

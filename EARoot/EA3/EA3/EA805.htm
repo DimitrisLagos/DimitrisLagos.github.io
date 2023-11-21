@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Current, Voltage, Active/Reactive Power</title>
+<title>Asset Electrical Data</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Current, Voltage, Active/Reactive Power </h1>
+			<h1> Asset Electrical Data </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA666.htm">SGAM Information Layer</a> / <a href="EA804.htm">Canonical Data Model</a> / <a href="EA805.htm">Current, Voltage, Active/Reactive Power</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA666.htm">SGAM Information Layer</a> / <a href="EA804.htm">Canonical Data Model</a> / <a href="EA805.htm">Asset Electrical Data</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -89,7 +89,7 @@
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Current, Voltage, Active/Reactive Power  : Public  &lt;&lt;Information Object&gt;&gt; InformationItem</span>
+	<span class="ObjectTitle">Asset Electrical Data  : Public  &lt;&lt;Information Object&gt;&gt; InformationItem</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -97,7 +97,7 @@
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">15/11/2023 18:20:09</td>
+			<td class="ObjectDetailsValue">21/11/2023 15:37:57</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -197,6 +197,13 @@
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA448.htm">GRID assets send electrical measurements to RTU</a></td>
+					<td width="10%" class="TableRow" valign="top">Action</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
 					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA444.htm">DSO SCADA updates the DSO SCADA Database with measurements</a></td>
 					<td width="10%" class="TableRow" valign="top">Action</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
@@ -204,21 +211,7 @@
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA411.htm">RTU send measurements to DSO SCADA</a></td>
-					<td width="10%" class="TableRow" valign="top">Action</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA451.htm">RTU send electrical measurements to DSO SCADA</a></td>
-					<td width="10%" class="TableRow" valign="top">Action</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA405.htm">DSO EMS collects real time and historical electrical data from DSO SCADA Database. </a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA410.htm">Grid assets send electrical measurements to RTU</a></td>
 					<td width="10%" class="TableRow" valign="top">Action</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
@@ -232,6 +225,13 @@
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA451.htm">RTU send electrical measurements to DSO SCADA</a></td>
+					<td width="10%" class="TableRow" valign="top">Action</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
 					<td width="30%" class="TableRow" valign="top"><a href="../EA2/EA745.htm">«Data Model Standard» DSO SCADA specific datamodel </a></td>
 					<td width="10%" class="TableRow" valign="top">Class</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
@@ -239,7 +239,14 @@
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA442.htm">DSO EMS forecasts the state of the grid, production and consumption.</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA405.htm">DSO EMS collects real time and historical electrical data from DSO SCADA Database. </a></td>
+					<td width="10%" class="TableRow" valign="top">Action</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA411.htm">RTU send measurements to DSO SCADA</a></td>
 					<td width="10%" class="TableRow" valign="top">Action</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
@@ -253,14 +260,7 @@
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA448.htm">GRID assets send electrical measurements to RTU</a></td>
-					<td width="10%" class="TableRow" valign="top">Action</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA410.htm">Grid assets send electrical measurements to RTU</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA1/EA4/EA442.htm">DSO EMS forecasts the state of the grid, production and consumption.</a></td>
 					<td width="10%" class="TableRow" valign="top">Action</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

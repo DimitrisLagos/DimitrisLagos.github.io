@@ -9,5 +9,5 @@ tocTab[tocTab.length] = new Array("0.3.3:8", "", "UC 5.1", "EARoot/EA3/EA3/EA796
 tocTab[tocTab.length] = new Array("0.3.3:9", "", "UC 5.2", "EARoot/EA3/EA3/EA798.htm", "179.png", "268", "0", "", "Deployment diagram0","{03B3A244-7238-4bb3-A393-BEDF6219F8EC}");
 tocTab[tocTab.length] = new Array("0.3.3:10", "", "UC1.04 Real Time Thermal Rating", "EARoot/EA3/EA3/EA800.htm", "175.png", "162", "0", "", "Logical diagram0","{A6B1B959-4D2A-4a6f-A8A6-4F1C8FB5BB97}");
 tocTab[tocTab.length] = new Array("0.3.3:11", "", "UC1.05 Advanced Asset Management", "EARoot/EA3/EA3/EA802.htm", "175.png", "138", "0", "", "Logical diagram0","{7A566AE4-2E72-46ac-BBF7-6AD6458F11CA}");
-tocTab[tocTab.length] = new Array("0.3.3:12", "", "«Information Object» Current, Voltage, Active/Reactive Power", "EARoot/EA3/EA3/EA805.htm", "204.png", "E1444", "0", "", "InformationItem0","{C72F8AE2-727A-46ff-83C7-1CFF11406573}");
+tocTab[tocTab.length] = new Array("0.3.3:12", "", "«Information Object» Asset Electrical Data", "EARoot/EA3/EA3/EA805.htm", "204.png", "E1444", "0", "", "InformationItem0","{C72F8AE2-727A-46ff-83C7-1CFF11406573}");
 tocTab[tocTab.length] = new Array("0.3.3.1", "1", "Information Objects", "EARoot/EA3/EA3/EA1/EA812.htm", "4.png", "", "", "{29F812E9-CD4A-48b3-81F3-4E61C0AFFEC8}", "Package");
