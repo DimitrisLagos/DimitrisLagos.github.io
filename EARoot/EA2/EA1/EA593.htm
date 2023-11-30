@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Building EMS: Building EMS</title>
+<title>Aggregator: Aggregators/FSPs</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Building EMS: Building EMS </h1>
+			<h1> Aggregator: Aggregators/FSPs </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA479.htm">SGAM Function Layer</a> / <a href="EA555.htm"> HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a> / <a href="EA561.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management</a> / <a href="EA569.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management_SequenceDiagram</a> / <a href="EA593.htm">Building EMS: Building EMS</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA479.htm">SGAM Function Layer</a> / <a href="EA555.htm"> HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a> / <a href="EA562.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management</a> / <a href="EA570.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management_SequenceDiagram</a> / <a href="EA593.htm">Aggregator: Aggregators/FSPs</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,12 +84,12 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA569.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management_SequenceDiagram</a></ul>
+<a href="EA570.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management_SequenceDiagram</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Building EMS  : Public   Sequence instance</span>
+	<span class="ObjectTitle">Aggregator  : Public   Sequence instance</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -142,11 +142,11 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{10145D3F-D9E9-42c8-8977-03D742A04706}</td>
+			<td class="ObjectDetailsValue">{E0C8B70B-FE54-4c07-BBED-7CF25E4D74EC}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA539.htm">1_Basic_Path</a></td>
+			<td class="ObjectDetailsValue"><a href="EA537.htm">1_Basic_Path</a></td>
 		</tr>
 	</table>
 	
@@ -162,22 +162,8 @@
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA592.htm">Building Controllers: Building Controllers</a></td>
-					<td width="50%" class="TableRow" valign="top">6.Building EMS sends control actions to building controllers.</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage954" /></button>Details:
-							<div id="detailsDIVMessage954" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA594.htm">Building Flexibility Management System: Building Flexibility Management System</a></td>
-					<td width="50%" class="TableRow" valign="top">2.The Building EMS sends building measurements to Building flexibility management system.</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA596.htm">Building Flexibility Management System: Building Flexibility Management System</a></td>
+					<td width="50%" class="TableRow" valign="top">4.Aggregator sends flexibility activation request details to building flexibility management system</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
@@ -199,27 +185,13 @@
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA592.htm">Building Controllers: Building Controllers</a></td>
-					<td width="50%" class="TableRow" valign="top">1.Building controllers provide measurements to building EMS</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA596.htm">Building Flexibility Management System: Building Flexibility Management System</a></td>
+					<td width="50%" class="TableRow" valign="top">3.The Building flexibility management system sends flexibility forecasts to Aggregators/FSPs</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
 						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage956" /></button>Details:
 							<div id="detailsDIVMessage956" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA594.htm">Building Flexibility Management System: Building Flexibility Management System</a></td>
-					<td width="50%" class="TableRow" valign="top">5.building flexibility management system sends control actions,  asset consumption and performance monitoring data to building EMS</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage957" /></button>Details:
-							<div id="detailsDIVMessage957" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
