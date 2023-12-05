@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Information Objects</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Information Objects </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA736.htm">SGAM Information Layer</a> / <a href="EA876.htm">Canonical Data Model</a> / <a href="./EA1/EA885.htm">Information Objects</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA886.htm">Acknoledgement of operator SCADA</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA887.htm">Acknowledgement of DSO EMS</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA888.htm">Asset</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA889.htm">Asset Electrical data</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA890.htm">Asset Electrical Measurements</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA891.htm">Asset replacement and flexibility installation costs</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA892.htm">Baseline Consumption</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA893.htm">Blockchauin Metadata</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA894.htm">Building Consumption/Sensor Data</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA895.htm">Car ID</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA896.htm">Company details</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA897.htm">Company details & frame of license area</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA898.htm">Consumption Data</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA899.htm">Consumption schedule, comfort preferences</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA900.htm">Consumption/Production Data, Sensor Data </a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA901.htm">Control action, asset consumption, performance monitoring</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA902.htm">Control action, asset consumption, performance monitoring</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA903.htm">Current Ratings of MV lines</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA904.htm">Electrical and Weather Measurements</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA905.htm">Flexibility Activation Schedule</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA906.htm">Flexibility Forecasts</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA907.htm">geographical coordinates,  meterpoint ID</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA908.htm">Grid node location</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA909.htm">Grid node structure</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA910.htm">Historical data of energy prices</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA911.htm">Historical Electrical Data</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA912.htm">InformationObject1</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA913.htm">InformationObject1</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA914.htm">InformationObject1</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA915.htm">InformationObject1</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA916.htm">InformationObject5</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA917.htm">Load/production profile without flexibility activation</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA918.htm">Location, flexibility volume, price</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA919.htm">Location, flexibility volume, price</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA920.htm">Location, flexibility volume, price</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA921.htm">Long Term Asset Condition category</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA922.htm">Maintenance, Failure Logs, Historical Electrical Data</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA923.htm">Production Data</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA924.htm">RES installed capacity, flexibility scheduling, asset installation, flexibility installations, cost analysis</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA925.htm">RES installed capacity, flexibility scheduling, optimal upgrades</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA926.htm">Results in flexibility scheduling and investment planning</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA927.htm">Short Term Failure probability of assets</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA928.htm">State of Charge</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA929.htm">State of Charge (EV)</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA930.htm">Topological Data</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA931.htm">Weather Forecasts</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="./EA1/EA932.htm">Weather Measurements </a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Information Objects  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">13/11/2023 12:56:33</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">13/11/2023 12:56:33</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Dimitris</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{29F812E9-CD4A-48b3-81F3-4E61C0AFFEC8}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

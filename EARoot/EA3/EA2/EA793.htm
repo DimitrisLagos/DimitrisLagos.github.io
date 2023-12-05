@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> UC 1.09 Initialization of HEMS/BEMS Demand Response strategy </h1>
+			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA736.htm">SGAM Information Layer</a> / <a href="EA801.htm">Standard and Information Object Mapping</a> / <a href="EA793.htm">UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA773.htm">Standard and Information Object Mapping</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA775.htm">UC 2.02</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA777.htm">UC 3.1</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA779.htm">UC 3.2</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA781.htm">UC 3.3</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA783.htm">UC 5.1</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA785.htm">UC 5.2</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA787.htm">UC 1.05 Advanced Asset Management</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA789.htm">UC 1.07 Investment Defferal</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA791.htm">UC 1.08 HEMS/BEMS DR optimization and local flexibility management</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA793.htm">UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA795.htm">UC 1.10 Establishment of a flexibility market and flexibility procurement</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA797.htm">UC1.04 Real Time Thermal Rating</a></li>
+<li><img src="../../../images/6.png" alt="Actor"/> <a href="EA829.htm">LogicalActor1</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA805.htm">AAM Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA806.htm">AAM Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA808.htm">Aggregator Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA807.htm">Aggregator Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA809.htm">AMI specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA810.htm">BEMS Specific Data Model </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA811.htm">BEMS/HEMS Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA812.htm">BFMS Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA813.htm">Blockchain Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA814.htm">Building Asset Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA815.htm">DataModelStandard1</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA816.htm">DataModelStandard2</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA817.htm">DSO SCADA specific datamodel </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA818.htm">DSO SCADA specific datamodel </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA819.htm">EC 62056 (DLMS/COSEM)</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA820.htm">EN 60870 (102/104) </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA821.htm">EN 60870 (102/104) </a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA822.htm">EN 61850</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA823.htm">EN 61850</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA824.htm">Grid Planning Software Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA830.htm">Market Platform Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA831.htm">Nodes Platform Data Model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA832.htm">OCPP Data model</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA833.htm">TSO SCADA specific datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA834.htm">TSO SCADA specific datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA835.htm">TSO/DSO Specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA836.htm">TSO/DSO Specific Datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA837.htm">Weather forecast datamodel</a></li>
+<li><img src="../../../images/5.png" alt="Class"/> <a href="EA838.htm">Weather forecast datamodel</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA803.htm">:Baseline Consumption</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA802.htm">:Grid node structure</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA804.htm">:Location, flexibility volume, price</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA825.htm">InformationObject1</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA826.htm">InformationObject2</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA827.htm">InformationObject3</a></li>
+<li><img src="../../../images/204.png" alt="InformationItem"/> <a href="EA828.htm">InformationObject4</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA794.png" usemap="#EA794" border="0" />
+
+<MAP NAME="EA794">
+<area shape="rect" coords="978,721,1188,791" href="../EA3/EA1/EA900.htm" target="_self">
+<area shape="rect" coords="927,314,1053,432" href="../EA3/EA1/EA899.htm" target="_self">
+<area shape="rect" coords="731,1005,821,1075" href="../../EA4/EA1/EA2/EA979.htm" target="_self">
+<area shape="rect" coords="308,1013,398,1083" href="../../EA4/EA1/EA2/EA981.htm" target="_self">
+<area shape="rect" coords="92,896,160,956" href="../../EA4/EA1/EA2/EA988.htm" target="_self">
+<area shape="rect" coords="395,651,485,721" href="../../EA4/EA1/EA2/EA983.htm" target="_self">
+<area shape="rect" coords="316,881,392,942" href="../../EA4/EA1/EA2/EA974.htm" target="_self">
+<area shape="rect" coords="547,837,625,898" href="../../EA4/EA1/EA2/EA999.htm" target="_self">
+<area shape="rect" coords="543,1019,633,1089" href="../../EA4/EA1/EA2/EA1015.htm" target="_self">
+<area shape="rect" coords="84,1018,169,1109" href="../../EA4/EA1/EA2/EA1008.htm" target="_self">
+<area shape="rect" coords="915,148,1005,218" href="../EA3/EA1/EA906.htm" target="_self">
+<area shape="rect" coords="731,148,821,218" href="EA807.htm" target="_self">
+<area shape="rect" coords="405,117,479,174" href="../../EA5/EA1/EA1207.htm" target="_self">
+<area shape="rect" coords="731,314,821,384" href="EA812.htm" target="_self">
+<area shape="rect" coords="740,537,830,607" href="EA811.htm" target="_self">
+<area shape="rect" coords="608,461,685,522" href="../../EA5/EA2/EA5/EA1333.htm" target="_self">
+<area shape="rect" coords="170,448,241,505" href="../../EA5/EA2/EA5/EA1336.htm" target="_self">
+<area shape="rect" coords="405,318,475,380" href="../../EA5/EA2/EA5/EA1334.htm" target="_self">
+<area shape="rect" coords="142,10,667,50" href="EA851.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">UC 1.09 Initialization of HEMS/BEMS Demand Response strategy : Information Layer diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">11/11/2023 00:00:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">21/11/2023 15:15:28</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">lpons</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{05ABBA3B-BD70-4445-AFEA-1ED163CF2587}</td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">This Diagram is of the Type &quot;SGAM Information Layer&quot;. Referring to this, the Toolbox &quot;SGAM Information Layer&quot; is visible.&lt;br/&gt;Use the physical components and the &quot;Information Object Flow&quot; Relation to illustrate, which Data Model Standards are associated to the physical components.&lt;br/&gt;Next, depict which &quot;Information Objects&quot; are provided by these Data Model Standards.&lt;br/&gt;</div>
+
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
