@@ -1,5 +1,8 @@
-tocTab[tocTab.length] = new Array("0.5.2.1", "1", "Greek Demo", "EARoot/EA5/EA2/EA1/EA1154.htm", "4.png", "", "", "{496A2159-173C-4e81-B04B-C80322AC6AF9}", "Package");
-tocTab[tocTab.length] = new Array("0.5.2.2", "1", "Slovenian Demo", "EARoot/EA5/EA2/EA2/EA1164.htm", "4.png", "", "", "{B88EC1FD-7E68-4e3c-921A-EE6605D1BF07}", "Package");
-tocTab[tocTab.length] = new Array("0.5.2.3", "1", "Spanish Demo", "EARoot/EA5/EA2/EA3/EA1169.htm", "4.png", "", "", "{A9BAEF12-18D4-485c-BB0B-65F4E8CDA87E}", "Package");
-tocTab[tocTab.length] = new Array("0.5.2.4", "1", "Horizontal", "EARoot/EA5/EA2/EA4/EA1185.htm", "4.png", "", "", "{2FE2D140-9292-45a9-B2D4-21548B50EC13}", "Package");
-tocTab[tocTab.length] = new Array("0.5.2.5", "1", "Swiss Demo", "EARoot/EA5/EA2/EA5/EA1260.htm", "4.png", "", "", "{ED51C1DF-5B56-4a97-9A1E-58F3E10F3BD1}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2:1", "", "«Client» ENTSO-E", "EARoot/EA5/EA2/EA519.htm", "9.png", "E604", "0", "", "Node0","{BC5DF0D7-C66B-4b89-82CF-8490C4D7A22E}");
+tocTab[tocTab.length] = new Array("0.5.2:2", "", "«Computer» Mail Server", "EARoot/EA5/EA2/EA520.htm", "9.png", "E605", "0", "", "Node0","{6C8859BB-66A9-436c-99A0-939F17FF78ED}");
+tocTab[tocTab.length] = new Array("0.5.2:3", "", "«Computer» OPDE Risk Register", "EARoot/EA5/EA2/EA521.htm", "9.png", "E602", "0", "", "Node0","{3AC86379-B25D-400f-8139-39880F43A04A}");
+tocTab[tocTab.length] = new Array("0.5.2:4", "", "«Client» TSO/RSC", "EARoot/EA5/EA2/EA522.htm", "9.png", "E603", "0", "", "Node0","{8CE00FEA-CA6C-4b3b-B357-E751CC3B3D1A}");
+tocTab[tocTab.length] = new Array("0.5.2.1", "1", "WP3-C3PO", "EARoot/EA5/EA2/EA1/EA545.htm", "4.png", "", "", "{2FE2D140-9292-45a9-B2D4-21548B50EC13}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.2", "1", "WP4-IRIS", "EARoot/EA5/EA2/EA2/EA566.htm", "4.png", "", "", "{0C95CD78-3874-4a72-992E-15FB5B46C0C4}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.3", "1", "WP5-PRECOG", "EARoot/EA5/EA2/EA3/EA577.htm", "4.png", "", "", "{92944D55-B6C8-496d-9FED-EBF1E11F2C1C}", "Package");
+tocTab[tocTab.length] = new Array("0.5.2.4", "1", "WP6-EMMA", "EARoot/EA5/EA2/EA4/EA603.htm", "4.png", "", "", "{ED51C1DF-5B56-4a97-9A1E-58F3E10F3BD1}", "Package");

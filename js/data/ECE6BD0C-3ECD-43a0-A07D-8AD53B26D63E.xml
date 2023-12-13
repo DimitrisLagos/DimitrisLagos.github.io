@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.3.1:1", "", "«Information Object» Abnormal Behavior", "EARoot/EA3/EA3/EA1/EA223.htm", "204.png", "E579", "0", "", "InformationItem0","{C604147F-F525-46a5-89F8-627C2B13CF97}");
+tocTab[tocTab.length] = new Array("0.3.3.1:2", "", "«Information Object» Analysis Results", "EARoot/EA3/EA3/EA1/EA224.htm", "204.png", "E578", "0", "", "InformationItem0","{BC6925F3-1338-4f79-8D26-728A9B9944E3}");
+tocTab[tocTab.length] = new Array("0.3.3.1:3", "", "«Information Object» Component Classification", "EARoot/EA3/EA3/EA1/EA225.htm", "204.png", "E580", "0", "", "InformationItem0","{6667EE5D-F164-437f-86BD-E146D926DCF0}");
+tocTab[tocTab.length] = new Array("0.3.3.1:4", "", "«Information Object» Event Identification", "EARoot/EA3/EA3/EA1/EA226.htm", "204.png", "E577", "0", "", "InformationItem0","{36BCCDBC-F9BF-44bc-8141-0EEA23896B56}");
+tocTab[tocTab.length] = new Array("0.3.3.1:5", "", "«Information Object» Registered component ID", "EARoot/EA3/EA3/EA1/EA227.htm", "204.png", "E581", "0", "", "InformationItem0","{3E5FF1BE-1571-47fd-99BA-788CF91DB834}");
+tocTab[tocTab.length] = new Array("0.3.3.1:6", "", "«Information Object» Traffic", "EARoot/EA3/EA3/EA1/EA228.htm", "204.png", "E575", "0", "", "InformationItem0","{B990F8F5-F01A-4bef-9831-DD3D0BB63BD4}");
