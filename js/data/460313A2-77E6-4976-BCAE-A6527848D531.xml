@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.3.2.2:1", "", "UC19 - Еmergency & Restoration - System Split modul upgrade", "EARoot/EA3/EA2/EA2/EA235.htm", "175.png", "112", "0", "", "Logical diagram0","{6D1BDE13-47C4-4efd-A8F7-EE929667ED99}");
+tocTab[tocTab.length] = new Array("0.3.2.2:2", "", "«Data Model Standard» CIM", "EARoot/EA3/EA2/EA2/EA238.htm", "5.png", "E648", "0", "", "Class0","{D27DBA43-1B52-4043-A346-E7F725708139}");
+tocTab[tocTab.length] = new Array("0.3.2.2:3", "", "«Data Model Standard» ER module proprietary data model", "EARoot/EA3/EA2/EA2/EA239.htm", "5.png", "E650", "0", "", "Class0","{CCDA247E-1196-4b53-BD51-48E0BEEC41C6}");
+tocTab[tocTab.length] = new Array("0.3.2.2:4", "", "«Data Model Standard» IEC 61850", "EARoot/EA3/EA2/EA2/EA240.htm", "5.png", "E646", "0", "", "Class0","{A032CE8D-58B9-4e89-896B-5306F472C3B8}");
+tocTab[tocTab.length] = new Array("0.3.2.2:5", "", "«Data Model Standard» IEEE C37.118", "EARoot/EA3/EA2/EA2/EA241.htm", "5.png", "E647", "0", "", "Class0","{C3989F65-CC4D-4233-A278-BA8D2A898228}");
+tocTab[tocTab.length] = new Array("0.3.2.2:6", "", "«Data Model Standard» TSO SCADA Proprietary Data Model", "EARoot/EA3/EA2/EA2/EA242.htm", "5.png", "E649", "0", "", "Class0","{4DF13BC0-9D13-4d20-B9CA-730C483439C3}");

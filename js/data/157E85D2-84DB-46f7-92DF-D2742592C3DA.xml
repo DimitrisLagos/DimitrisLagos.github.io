@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.3.3:1", "", "Canonical Data Model", "EARoot/EA3/EA3/EA211.htm", "175.png", "15", "0", "", "Logical diagram0","{90055DB2-9941-4e96-AD11-A6505C6F0C49}");
-tocTab[tocTab.length] = new Array("0.3.3.1", "1", "Information Object", "EARoot/EA3/EA3/EA1/EA222.htm", "4.png", "", "", "{ECE6BD0C-3ECD-43a0-A07D-8AD53B26D63E}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3.2", "", "WP3-C3PO", "EARoot/EA3/EA3/EA2/EA229.htm", "4.png", "", "", "{8ADEA1DC-65EB-4796-B98E-475ACFBE481E}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3.3", "", "WP4-IRIS", "EARoot/EA3/EA3/EA3/EA230.htm", "4.png", "", "", "{40BE3504-9379-4151-A2B8-68DD8E36AF1F}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3.4", "1", "WP5-PRECOG", "EARoot/EA3/EA3/EA4/EA233.htm", "4.png", "", "", "{F610595D-7182-4414-A5CB-50E1B0D28F81}", "Package");
-tocTab[tocTab.length] = new Array("0.3.3.5", "", "WP6-EMMA", "EARoot/EA3/EA3/EA5/EA236.htm", "4.png", "", "", "{5479136D-C5D4-4a99-9927-562937D41AB6}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3:1", "", "Canonical Data Model", "EARoot/EA3/EA3/EA252.htm", "175.png", "15", "0", "", "Logical diagram0","{90055DB2-9941-4e96-AD11-A6505C6F0C49}");
+tocTab[tocTab.length] = new Array("0.3.3.1", "1", "Information Object", "EARoot/EA3/EA3/EA1/EA263.htm", "4.png", "", "", "{ECE6BD0C-3ECD-43a0-A07D-8AD53B26D63E}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3.2", "1", "WP3-C3PO", "EARoot/EA3/EA3/EA2/EA284.htm", "4.png", "", "", "{8ADEA1DC-65EB-4796-B98E-475ACFBE481E}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3.3", "1", "WP4-IRIS", "EARoot/EA3/EA3/EA3/EA289.htm", "4.png", "", "", "{40BE3504-9379-4151-A2B8-68DD8E36AF1F}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3.4", "1", "WP5-PRECOG", "EARoot/EA3/EA3/EA4/EA294.htm", "4.png", "", "", "{F610595D-7182-4414-A5CB-50E1B0D28F81}", "Package");
+tocTab[tocTab.length] = new Array("0.3.3.5", "", "WP6-EMMA", "EARoot/EA3/EA3/EA5/EA297.htm", "4.png", "", "", "{5479136D-C5D4-4a99-9927-562937D41AB6}", "Package");
