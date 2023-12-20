@@ -1,3 +1,2 @@
-tocTab[tocTab.length] = new Array("0.3.2.1:1", "", "UC32 - Planning and operation for a resilient multi-energy microgrid", "EARoot/EA3/EA2/EA1/EA228.htm", "175.png", "108", "0", "", "Logical diagram0","{B2A824C9-BDA8-4a7a-BA6D-D6941AD41CF7}");
-tocTab[tocTab.length] = new Array("0.3.2.1:2", "", "«Data Model Standard» EN 60870-5-102", "EARoot/EA3/EA2/EA1/EA231.htm", "5.png", "E619", "0", "", "Class0","{6FB16CC2-F183-4315-81BE-AD4A596AD890}");
-tocTab[tocTab.length] = new Array("0.3.2.1:3", "", "«Data Model Standard» Mobile Source Dispatch Central Controller proprietarry data model", "EARoot/EA3/EA2/EA1/EA234.htm", "5.png", "E621", "E619", "", "Class0","{8B503EBA-C0DF-4036-AE41-0F5BA2562B57}");
+tocTab[tocTab.length] = new Array("0.3.2.1:1", "", "UC32 - Planning and operation for a resilient multi-energy microgrid", "EARoot/EA3/EA2/EA1/EA248.htm", "175.png", "108", "0", "", "Logical diagram0","{B2A824C9-BDA8-4a7a-BA6D-D6941AD41CF7}");
+tocTab[tocTab.length] = new Array("0.3.2.1:2", "", "UC39 - Innovative solution for OPDE Risk Register", "EARoot/EA3/EA2/EA1/EA250.htm", "175.png", "123", "0", "", "Logical diagram0","{44614C58-6314-4c43-821B-0F9F6F4B9360}");

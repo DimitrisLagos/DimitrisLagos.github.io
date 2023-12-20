@@ -1,1 +1,2 @@
-tocTab[tocTab.length] = new Array("0.3.1.1.1:1", "", "UC32 - Planning and operation for a resilient multi-energy microgrid", "EARoot/EA3/EA1/EA1/EA1/EA204.htm", "175.png", "107", "0", "", "Logical diagram0","{9A5BAB40-6A7E-4c81-91F6-D36ABC4BEC30}");
+tocTab[tocTab.length] = new Array("0.3.1.1.1:1", "", "UC32 - Planning and operation for a resilient multi-energy microgrid", "EARoot/EA3/EA1/EA1/EA1/EA216.htm", "175.png", "107", "0", "", "Logical diagram0","{9A5BAB40-6A7E-4c81-91F6-D36ABC4BEC30}");
+tocTab[tocTab.length] = new Array("0.3.1.1.1:2", "", "UC39 - Innovative solution for OPDE Risk Register", "EARoot/EA3/EA1/EA1/EA1/EA218.htm", "175.png", "122", "0", "", "Logical diagram0","{53E73B39-1B44-4ddf-9A9E-AADB3770ADEE}");
