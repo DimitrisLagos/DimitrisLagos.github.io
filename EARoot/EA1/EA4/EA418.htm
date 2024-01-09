@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Building Controllers: Building Controllers</title>
+<title>Aggregators/FSPs: Aggregators/FSPs</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Building Controllers: Building Controllers </h1>
+			<h1> Aggregators/FSPs: Aggregators/FSPs </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA154.htm">Business use cases</a> / <a href="EA189.htm">UC 5.1 Improve congestion management to facilitate DERs penetration</a> / <a href="EA402.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_SequenceDiagram</a> / <a href="EA418.htm">Building Controllers: Building Controllers</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA152.htm">Business use cases</a> / <a href="EA188.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</a> / <a href="EA417.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_SequenceDiagram</a> / <a href="EA418.htm">Aggregators/FSPs: Aggregators/FSPs</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,20 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA402.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_SequenceDiagram</a></ul>
+<a href="EA417.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_SequenceDiagram</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Building Controllers  : Public   Sequence instance</span>
+	<span class="ObjectTitle">Aggregators/FSPs  : Public   Sequence instance</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:31:30</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 10:18:32</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">16/11/2023 09:31:30</td>
+			<td class="ObjectDetailsValue">16/11/2023 10:18:32</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,18 +142,42 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{DBA57D2A-851D-40b4-B3B3-EA2A87CD1268}</td>
+			<td class="ObjectDetailsValue">{2FC5FC9E-B338-4869-A8DB-A7288790A541}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA52.htm">1_Basic_Path</a></td>
+			<td class="ObjectDetailsValue"><a href="EA60.htm">5a_FSPs</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('MessagesTo') : toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
 			<li onClick="parent != null ? parent.toggleItem('MessagesFrom') : toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
+		<div class="ItemBody" id="MessagesToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA426.htm">Market Platform: Market Platform</a></td>
+					<td width="50%" class="TableRow" valign="top">4.Aggregators/FSPs send flexibility sell offer,  flexibility forecast and baseline consumption to market platform.</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage612" /></button>Details:
+							<div id="detailsDIVMessage612" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="MessagesFromTable">
 			<table class="Table ea_table">
 				<tr>
@@ -161,13 +185,13 @@
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA417.htm">BEMS: BEMS</a></td>
-					<td width="50%" class="TableRow" valign="top">8.BEMS send control signals to building controllers.</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA419.htm">BEMS: BEMS</a></td>
+					<td width="50%" class="TableRow" valign="top">3. BEMS send flexibility forecasts and baseline consumption  to Aggregators/FSPs.</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage636" /></button>Details:
-							<div id="detailsDIVMessage636" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage613" /></button>Details:
+							<div id="detailsDIVMessage613" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>

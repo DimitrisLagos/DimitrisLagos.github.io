@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>UC 3.2 Baseline and flexibility forecast for HEMS fleet_ActivityGraph</title>
+<title>UC 3.3 Optimal selection of available flexibility_ActivityGraph</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> UC 3.2 Baseline and flexibility forecast for HEMS fleet_ActivityGraph </h1>
+			<h1> UC 3.3 Optimal selection of available flexibility_ActivityGraph </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA154.htm">Business use cases</a> / <a href="EA182.htm">UC 3.2 Baseline and flexibility forecast for HEMS fleet</a> / <a href="EA342.htm">UC 3.2 Baseline and flexibility forecast for HEMS fleet_ActivityGraph</a> / <a href="EA142.htm">UC 3.2 Baseline and flexibility forecast for HEMS fleet_ActivityGraph</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA152.htm">Business use cases</a> / <a href="EA181.htm">UC 3.3 Optimal selection of available flexibility</a> / <a href="EA368.htm">UC 3.3 Optimal selection of available flexibility_ActivityGraph</a> / <a href="EA142.htm">UC 3.3 Optimal selection of available flexibility_ActivityGraph</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,18 +84,20 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<li><img src="../../../images/181.png" alt="Diagram"/> <a href="EA142.htm">UC 3.2 Baseline and flexibility forecast for HEMS fleet_ActivityGraph</a></li>
-<li><img src="../../../images/25.png" alt="Object"/> <a href="EA351.htm">:Consumption Data</a></li>
-<li><img src="../../../images/25.png" alt="Object"/> <a href="EA352.htm">:Production Data</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA353.htm">Amibit platform access measurements and weather forecasts from HEMS database</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA354.htm">Amibit platform computes baseline consumption and flexibility forecasts</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA355.htm">Amibit platform place flexibility bid, flexibility forecasts and baseline flexibility to Aggregators/FSPs</a></li>
-<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA356.htm">End</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA357.htm">HEMS receives weather forecasts from a Weather Service Provider</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA358.htm">HEMS stores measurements and forecasts to HEMS database</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA359.htm">House controllers/meters send measurements to house gateway</a></li>
-<li><img src="../../../images/104.png" alt="Action"/> <a href="EA360.htm">House gateway sends the measurements to HEMS</a></li>
-<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA361.htm">Start</a></li>
+<li><img src="../../../images/181.png" alt="Diagram"/> <a href="EA142.htm">UC 3.3 Optimal selection of available flexibility_ActivityGraph</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA370.htm">:Flexibility Forecasts</a></li>
+<li><img src="../../../images/98.png" alt="StateNode"/> <a href="EA378.htm">FlowEnd1</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA380.htm">House gateway sends control actions to house controllers</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA379.htm">HEMS sends to House gateway control actions</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA375.htm">Amibit platform sends to HEMS control actions</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA372.htm">Aggregators/FSPs sends to Amibit platform dedicated flexibility activation schedule</a></li>
+<li><img src="../../../images/56.png" alt="Decision"/> <a href="EA374.htm">Alternate1</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA376.htm">Avantcar platform sends cotrol actions to EVSE</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA373.htm">Aggregators/FSPs sends to Avantcar platform dedicated flexibility activation schedule</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA381.htm">Market platform activates bid and send flexibility activation schedule to aggregator</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA371.htm">Aggregators/FSPs place flexibility bid, flexibility schedule and baseline consumption to market platform</a></li>
+<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA377.htm">End</a></li>
+<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA382.htm">Start</a></li>
 </ul>
 
 					</td>
@@ -104,34 +106,34 @@
 <img src="EA143.png" usemap="#EA143" border="0" />
 
 <MAP NAME="EA143">
-<area shape="rect" coords="368,1025,458,1095" href="../../EA3/EA3/EA1/EA837.htm" target="_self">
-<area shape="rect" coords="349,1160,475,1230" href="../../EA3/EA3/EA1/EA824.htm" target="_self">
-<area shape="rect" coords="368,862,458,961" href="../../EA3/EA3/EA1/EA850.htm" target="_self">
-<area shape="rect" coords="362,684,452,754" href="../../EA3/EA3/EA1/EA863.htm" target="_self">
-<area shape="rect" coords="339,529,451,599" href="../../EA3/EA3/EA1/EA854.htm" target="_self">
-<area shape="rect" coords="331,392,457,462" href="../../EA3/EA3/EA1/EA829.htm" target="_self">
-<area shape="rect" coords="333,92,454,167" href="../../EA3/EA3/EA1/EA861.htm" target="_self">
-<area shape="rect" coords="347,243,437,313" href="../../EA3/EA3/EA1/EA860.htm" target="_self">
-<area shape="rect" coords="70,1211,90,1231" href="EA356.htm" target="_self">
-<area shape="rect" coords="13,1016,148,1167" href="EA355.htm" target="_self">
-<area shape="rect" coords="13,840,148,972" href="EA354.htm" target="_self">
-<area shape="rect" coords="13,664,148,796" href="EA353.htm" target="_self">
-<area shape="rect" coords="13,526,148,620" href="EA358.htm" target="_self">
-<area shape="rect" coords="13,369,148,482" href="EA357.htm" target="_self">
-<area shape="rect" coords="13,231,148,325" href="EA360.htm" target="_self">
-<area shape="rect" coords="10,74,145,206" href="EA359.htm" target="_self">
-<area shape="rect" coords="66,10,86,30" href="EA361.htm" target="_self">
+<area shape="rect" coords="201,742,330,879" href="../../EA3/EA3/EA1/EA860.htm" target="_self">
+<area shape="rect" coords="328,27,454,97" href="../../EA3/EA3/EA1/EA851.htm" target="_self">
+<area shape="rect" coords="222,314,328,413" href="../../EA3/EA3/EA1/EA863.htm" target="_self">
+<area shape="rect" coords="357,219,447,289" href="../../EA3/EA3/EA1/EA864.htm" target="_self">
+<area shape="rect" coords="480,120,570,219" href="../../EA3/EA3/EA1/EA877.htm" target="_self">
+<area shape="rect" coords="75,1050,95,1070" href="EA377.htm" target="_self">
+<area shape="rect" coords="17,888,152,982" href="EA376.htm" target="_self">
+<area shape="rect" coords="17,655,152,825" href="EA373.htm" target="_self">
+<area shape="rect" coords="420,1078,440,1098" href="EA378.htm" target="_self">
+<area shape="rect" coords="363,950,498,1044" href="EA380.htm" target="_self">
+<area shape="rect" coords="363,841,498,916" href="EA379.htm" target="_self">
+<area shape="rect" coords="363,732,498,807" href="EA375.htm" target="_self">
+<area shape="rect" coords="363,547,498,698" href="EA372.htm" target="_self">
+<area shape="rect" coords="69,471,95,505" href="EA374.htm" target="_self">
+<area shape="rect" coords="15,295,150,427" href="EA381.htm" target="_self">
+<area shape="rect" coords="14,92,149,243" href="EA371.htm" target="_self">
+<area shape="rect" coords="72,10,92,30" href="EA382.htm" target="_self">
 </MAP>
  </div>
-	<div class="ObjectTitle">UC 3.2 Baseline and flexibility forecast for HEMS fleet_ActivityGraph : Activity diagram</div>
+	<div class="ObjectTitle">UC 3.3 Optimal selection of available flexibility_ActivityGraph : Activity diagram</div>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">15/11/2023 15:47:58</td>
+			<td width="85%" class="ObjectDetailsValue">15/11/2023 16:54:40</td>
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
-			<td width="85%" class="ObjectDetailsValue">21/11/2023 15:56:18</td>
+			<td width="85%" class="ObjectDetailsValue">15/11/2023 17:01:16</td>
 		</tr>
 		<tr style="padding-top: 10px;">
 			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
@@ -151,7 +153,7 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
-			<td width="85%" class="ObjectDetailsValue">{413DCEBB-8F97-4b59-98F5-F135C6E04255}</td>
+			<td width="85%" class="ObjectDetailsValue">{BA7E3C87-A073-431a-ABFB-0E38E0BE840D}</td>
 		</tr>
 	</table>
 	

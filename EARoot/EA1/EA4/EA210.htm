@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>SCADA Database</title>
+<title>_ActivityGraph</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> SCADA Database </h1>
+			<h1> _ActivityGraph </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA154.htm">Business use cases</a> / <a href="EA177.htm">UC 1.5 Advanced Asset Managemet </a> / <a href="EA210.htm">SCADA Database</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA152.htm">Business use cases</a> / <a href="EA175.htm">UC 1.5 Advanced Asset Managemet </a> / <a href="EA204.htm">:UC 1.5 Advanced Asset Managemet </a> / <a href="EA210.htm">_ActivityGraph</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,36 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA177.htm">UC 1.5 Advanced Asset Managemet </a></ul>
+<li><img src="../../../images/181.png" alt="Diagram"/> <a href="EA62.htm">_ActivityGraph</a></li>
+<li><img src="../../../images/25.png" alt="Object"/> <a href="EA227.htm">Acknoledgement of operator&#39;s SCADA: Acknoledgement of operator SCADA</a></li>
+<li><img src="../../../images/98.png" alt="StateNode"/> <a href="EA230.htm">FlowEnd1</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA226.htm">AAM software exports data to system operator through a user interface results on long term asset condition calculation.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA235.htm">System Operator provides historical electrical data and maintenance and failure data</a></li>
+<li><img src="../../../images/56.png" alt="Decision"/> <a href="EA222.htm"></a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA236.htm">System Operator SCADA stores measurements to SCADA database.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA233.htm">RTU sends measurements to system operator SCADA</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA232.htm">RTU receive measurements from GRID</a></li>
+<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA229.htm">End</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA228.htm">Acknowledgement is sent by the system operator SCADA for short term asset condition results to AAM software.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA225.htm">AAM software exports data  for short term asset condition calculation o SCADA database.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA224.htm">AAM software accesses to weather forecasts from a weather service provider. </a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA223.htm">AAM software accesses data in the operator&#39;s SCADA database </a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA231.htm">Request for AAM software execution by system operator for long term or short term asset condition calculation.</a></li>
+<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA234.htm">Start</a></li>
+</ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">SCADA Database  : Public  &lt;&lt;Logical Actor&gt;&gt; Actor</span>
+	<span class="ObjectTitle">_ActivityGraph  : Public   Activity</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">14/11/2023 17:13:44</td>
+			<td width="85%" class="ObjectDetailsValue">08/11/2023 11:42:08</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">14/11/2023 17:18:51</td>
+			<td class="ObjectDetailsValue">08/11/2023 11:42:08</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,11 +158,11 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{7164817E-DD64-4b26-8E84-BC9C5D402357}</td>
+			<td class="ObjectDetailsValue">{62C106D9-F46F-4f0d-A611-2781AAF77650}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA138.htm">UC 1.5 Advanced Asset Managemet </a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
@@ -154,7 +170,6 @@
 		<ul class="ItemTitle">
 			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
-			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
 <div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
@@ -163,14 +178,13 @@
 			<td width="50%" class="TableHeading">Value</td>
 		</tr>
 					<tr>
-				<td width="50%" class="TableRow" valign="top">Toolbox Version</td>
-				<td width="50%" class="TableRow" valign="top">0.6</td>
+				<td width="50%" class="TableRow" valign="top">diagramType</td>
+				<td width="50%" class="TableRow" valign="top">ActivityGraph</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					Details:
-						<div class="ObjectDetailsNotes">Default: 0.6<br /></div>
-
+						&nbsp;
 				</td>
 			</tr>
 	</table>
@@ -181,39 +195,18 @@
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
 				<td width="30%" class="TableRow">isFinalSpecialization:</td>
 				<td width="70%" class="TableRow">0</td>
 			</tr>
 
 
 			</table>
-		</div>		<div class="ItemBody" id="LinksTable">
-			<table class="Table ea_table">
-				<tr>
-					<td width="30%" class="TableHeading">Object</td>
-					<td width="10%" class="TableHeading">Type</td>
-					<td width="10%" class="TableHeading">Connection</td>
-					<td width="10%" class="TableHeading">Direction</td>
-					<td width="40%" class="TableHeading">Notes</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA206.htm">«High Level Use Case» </a></td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">UseCase</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA211.htm">«Logical Actor» System operator SCADA</a></td>
-					<td width="10%" class="TableRow" valign="top">Actor</td>
-					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">From</td>
-					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
-				</tr>
-
-			</table>
-		</div>
-	</div>
+		</div>	</div>
  </div>
  </td>
 				</tr>

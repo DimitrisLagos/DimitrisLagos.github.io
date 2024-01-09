@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Grid: Grid</title>
+<title>DSO EMS: DSO EMS</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Grid: Grid </h1>
+			<h1> DSO EMS: DSO EMS </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA154.htm">Business use cases</a> / <a href="EA189.htm">UC 5.1 Improve congestion management to facilitate DERs penetration</a> / <a href="EA402.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_SequenceDiagram</a> / <a href="EA422.htm">Grid: Grid</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA152.htm">Business use cases</a> / <a href="EA188.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</a> / <a href="EA417.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_SequenceDiagram</a> / <a href="EA422.htm">DSO EMS: DSO EMS</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,20 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA402.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_SequenceDiagram</a></ul>
+<a href="EA417.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_SequenceDiagram</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Grid  : Public   Sequence instance</span>
+	<span class="ObjectTitle">DSO EMS  : Public   Sequence instance</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:31:30</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 10:18:32</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">16/11/2023 09:31:30</td>
+			<td class="ObjectDetailsValue">16/11/2023 10:18:32</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,17 +142,18 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{5E1CDB03-DB76-4d18-A016-60DA3FD4B4D4}</td>
+			<td class="ObjectDetailsValue">{73A19660-70F2-4487-B55B-EB5CB3590E74}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA52.htm">1_Basic_Path</a></td>
+			<td class="ObjectDetailsValue"><a href="EA52.htm">1_Basic_Path</a>, <a href="EA60.htm">5a_FSPs</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent != null ? parent.toggleItem('MessagesTo') : toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent != null ? parent.toggleItem('MessagesFrom') : toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 		</ul>
 		<div class="ItemBody" id="MessagesToTable">
 			<table class="Table ea_table">
@@ -161,13 +162,78 @@
 					<td width="50%" class="TableHeading">Message</td>
 				</tr>
 				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA423.htm">RTU: RTU</a></td>
-					<td width="50%" class="TableRow" valign="top">1.Grid assets send electrical measurements to RTU</td>
+					<td width="50%" class="TableRow" valign="top"><a href="EA426.htm">Market Platform: Market Platform</a></td>
+					<td width="50%" class="TableRow" valign="top">6.DSO places flexibility buy offer to market platform.</td>
 				</tr>
 		   		<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage648" /></button>Details:
-							<div id="detailsDIVMessage648" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage624" /></button>Details:
+							<div id="detailsDIVMessage624" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA422.htm">DSO EMS: DSO EMS</a></td>
+					<td width="50%" class="TableRow" valign="top">5.DSO EMS forecasts the state of the grid,  production and consumption.</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage625" /></button>Details:
+							<div id="detailsDIVMessage625" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA424.htm">DSO SCADA Database: DSO AMI Database</a></td>
+					<td width="50%" class="TableRow" valign="top">4.DSO EMS receives electrical dsata from DSO SCADA database</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage626" /></button>Details:
+							<div id="detailsDIVMessage626" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA419.htm">BEMS: BEMS</a></td>
+					<td width="50%" class="TableRow" valign="top">1.BEMS send flexibility forecast and baseline consumption to DSO EMS</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage627" /></button>Details:
+							<div id="detailsDIVMessage627" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA422.htm">DSO EMS: DSO EMS</a></td>
+					<td width="50%" class="TableRow" valign="top">5.DSO EMS forecasts the state of the grid,  production and consumption.</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage628" /></button>Details:
+							<div id="detailsDIVMessage628" class="DetailsDiv" >
 							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>

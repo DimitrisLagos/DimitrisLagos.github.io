@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>TSO: TSO</title>
+<title>HighLevelUseCase2_ActivityGraph</title>
 <link href="../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> TSO: TSO </h1>
+			<h1> HighLevelUseCase2_ActivityGraph </h1>
 			<!-- <img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../index.htm">Model</a> / <a href="EA483.htm">SGAM Function Layer</a> / <a href="EA485.htm">:UC 1.10 Establishment of a flexibility market and flexibility procurement</a> / <a href="EA500.htm">_SequenceDiagram</a> / <a href="EA546.htm">TSO</a></p>
+			<p><a href="../../index.htm">Model</a> / <a href="EA484.htm">SGAM Function Layer</a> / <a href="EA493.htm">HighLevelUseCase2</a> / <a href="EA546.htm">HighLevelUseCase2_ActivityGraph</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,26 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA500.htm">_SequenceDiagram</a></ul>
+<li><img src="../../images/181.png" alt="Diagram"/> <a href="EA472.htm">HighLevelUseCase2_ActivityGraph</a></li>
+<li><img src="../../images/69.png" alt="StateNode"/> <a href="EA553.htm">End</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA556.htm">TSO sends flexibility activation commands to DSO</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA555.htm">TSO runs state estimation</a></li>
+<li><img src="../../images/104.png" alt="Action"/> <a href="EA552.htm">DSO sends eletrical measurements to TSO</a></li>
+<li><img src="../../images/68.png" alt="StateNode"/> <a href="EA554.htm">Start</a></li>
+</ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">TSO  : Public   Sequence instance</span>
+	<span class="ObjectTitle">HighLevelUseCase2_ActivityGraph  : Public   Activity</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">05/12/2023 12:45:45</td>
+			<td width="85%" class="ObjectDetailsValue">07/12/2023 14:51:41</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">05/12/2023 12:45:45</td>
+			<td class="ObjectDetailsValue">07/12/2023 14:51:41</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -142,56 +148,55 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{3E9752E0-44C8-41f8-B26D-7FE983A78D68}</td>
+			<td class="ObjectDetailsValue">{2914A76D-43B4-4bc9-907F-50AC6354C13D}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA469.htm">1c_Basic Path</a></td>
+			<td class="ObjectDetailsValue"></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="parent != null ? parent.toggleItem('MessagesTo') : toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-		<div class="ItemBody" id="MessagesToTable">
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">diagramType</td>
+				<td width="50%" class="TableRow" valign="top">ActivityGraph</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
+				</td>
+			</tr>
+	</table>
+</div>		<div class="ItemBody" id="CustomPropertiesTable">
 			<table class="Table ea_table">
 				<tr>
-					<td width="50%" class="TableHeading">Element</td>
-					<td width="50%" class="TableHeading">Message</td>
+					<td width="30%" class="TableHeading">Property</td>
+					<td width="70%" class="TableHeading">Value</td>
 				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA543.htm">Blockchain Interface: Blockchain Interface</a></td>
-					<td width="50%" class="TableRow" valign="top">3.TSO provides flexibility buy bid data  to blockchain interface.</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage881" /></button>Details:
-							<div id="detailsDIVMessage881" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
-				<tr>
-					<td width="50%" class="TableRow" valign="top"><a href="EA543.htm">Blockchain Interface: Blockchain Interface</a></td>
-					<td width="50%" class="TableRow" valign="top">1.TSO sent registration request to Blockchain Interface</td>
-				</tr>
-		   		<tr>
-					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage882" /></button>Details:
-							<div id="detailsDIVMessage882" class="DetailsDiv" >
-							<strong>Type:</strong> Sequence Synchronous Call<br />
-							&nbsp;
-							</div>
-						</div>
-					</td>
-				</tr>
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isFinalSpecialization:</td>
+				<td width="70%" class="TableRow">0</td>
+			</tr>
+
 
 			</table>
-		</div>
-	</div>
+		</div>	</div>
  </div>
  </td>
 				</tr>

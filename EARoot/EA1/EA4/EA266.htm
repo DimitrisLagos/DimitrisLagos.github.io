@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Grid Planning software provides the necessary files for data visualization -data export to the DSO.</title>
+<title>DSO sends to Grid Planning software topological, historical electrical and future RES installations.</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Grid Planning software provides the necessary files for data visualization -data export to the DSO. </h1>
+			<h1> DSO sends to Grid Planning software topological, historical electrical and future RES installations. </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA154.htm">Business use cases</a> / <a href="EA155.htm">:UC1.07 Investement Defferal</a> / <a href="EA266.htm">Grid Planning software provides the necessary files for data visualization -data export to the DSO.</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA152.htm">Business use cases</a> / <a href="EA153.htm">:UC1.07 Investement Defferal</a> / <a href="EA257.htm">_ActivityGraph</a> / <a href="EA266.htm">DSO sends to Grid Planning software topological, historical electrical and future RES installations.</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,12 +84,12 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA155.htm">:UC1.07 Investement Defferal</a></ul>
+<a href="EA257.htm">_ActivityGraph</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Grid Planning software provides the necessary files for data visualization -data export to the DSO.  : Public   Activity</span>
+	<span class="ObjectTitle">DSO sends to Grid Planning software topological, historical electrical and future RES installations.  : Public   Action</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
@@ -142,19 +142,70 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{3A0A7D6A-BF04-47ca-86F4-DD8EC51C6E97}</td>
+			<td class="ObjectDetailsValue">{017DE097-E519-44cc-8F25-5668BF1614D4}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"></td>
+			<td class="ObjectDetailsValue"><a href="EA64.htm">_ActivityGraph</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
+			<li onClick="parent != null ? parent.toggleItem('FlowTo') : toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="parent != null ? parent.toggleItem('FlowFrom') : toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
 			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
+			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA265.htm">DSO provides expected end of life for distribution system assets. </a><br />
+						Action &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow268" /></button>Details:
+							<div id="detailsDIVLinkFlow268" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA272.htm">Start</a><br />
+						StateNode &nbsp;
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow269" /></button>Details:
+							<div id="detailsDIVLinkFlow269" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
 <div class="ItemBody" id="TaggedValTable">
 	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
 		<tr>
@@ -162,14 +213,22 @@
 			<td width="50%" class="TableHeading">Value</td>
 		</tr>
 					<tr>
-				<td width="50%" class="TableRow" valign="top">invoked_from</td>
-				<td width="50%" class="TableRow" valign="top">{FD21BA3B-8870-4e12-B35A-2142EDA1B9C9}</td>
+				<td width="50%" class="TableRow" valign="top">step_guid</td>
+				<td width="50%" class="TableRow" valign="top">{3CFC928F-A5E7-47a7-984F-CCC3C2AB21B9}</td>
 			</tr>	
 			<tr>
 				<td class="TableRowBottomDashed"  colspan="2">
 					Details:
-						<div class="ObjectDetailsNotes">{F7AC736B-C454-4480-BA3A-E393FBA2DDA2}</div>
-
+						&nbsp;
+				</td>
+			</tr>			<tr>
+				<td width="50%" class="TableRow" valign="top">trigger</td>
+				<td width="50%" class="TableRow" valign="top">User</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					Details:
+						&nbsp;
 				</td>
 			</tr>
 	</table>
@@ -180,18 +239,84 @@
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
 			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="30%" class="TableRow">kind:</td>
+				<td width="70%" class="TableRow">CallBehavior</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isOrdered:</td>
 				<td width="70%" class="TableRow">false</td>
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isFinalSpecialization:</td>
-				<td width="70%" class="TableRow">0</td>
+				<td width="30%" class="TableRow">isLocallyReentrant:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isUnmarshall:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isReplaceAll:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isSynchronous:</td>
+				<td width="70%" class="TableRow">true</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDestroyLinks:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDestroyOwnedObjects:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isRemoveDuplicates:</td>
+				<td width="70%" class="TableRow">false</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isDirect:</td>
+				<td width="70%" class="TableRow">false</td>
 			</tr>
 
 
 			</table>
-		</div>	</div>
+		</div>		<div class="ItemBody" id="LinksTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="30%" class="TableHeading">Object</td>
+					<td width="10%" class="TableHeading">Type</td>
+					<td width="10%" class="TableHeading">Connection</td>
+					<td width="10%" class="TableHeading">Direction</td>
+					<td width="40%" class="TableHeading">Notes</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA3/EA1/EA889.htm">«Information Object» Topological Data</a></td>
+					<td width="10%" class="TableRow" valign="top">InformationItem</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA3/EA3/EA1/EA869.htm">«Information Object» Historical Electrical Data</a></td>
+					<td width="10%" class="TableRow" valign="top">InformationItem</td>
+					<td width="10%" class="TableRow" valign="top">Dependency</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+
+			</table>
+		</div>
+	</div>
  </div>
  </td>
 				</tr>
