@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>UC 4.5 Improving the Grid Infrastructure</title>
+<title>UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> UC 4.5 Improving the Grid Infrastructure </h1>
+			<h1> UC 5.2 Integrate flexibility with the distribution grid to provide balancing services </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA154.htm">Business use cases</a> / <a href="EA188.htm">UC 4.5 Improving the Grid Infrastructure</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA152.htm">Business use cases</a> / <a href="EA188.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,21 +84,34 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA94.htm">HighLevelUseCase1</a></li>
+<li><img src="../../../images/175.png" alt="Diagram"/> <a href="EA106.htm">HighLevelUseCase1</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA405.htm"> BEMS send flexibility forecasts and baseline consumption  to Aggregators/FSPs.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA406.htm">Aggregators/FSPs send flexibility sell offer, flexibility forecast and baseline consumption to market platform.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA407.htm">BEMS send control action to DMS.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA408.htm">BEMS send flexibility forecast and baseline consumption to DSO EMS</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA409.htm">Data Concentrator send electrical measurements to DSO ΑΜΙ</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA410.htm">DSO EMS forecasts the state of the grid, production and consumption.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA411.htm">DSO places flexibility buy offer to market platform.</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA412.htm">DSO verifies if flexibility can be activated according to grid constraints to BEMS</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA413.htm">DSO ΑΜΙ updates the DSO AMI Database with measurements</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA414.htm">GRID assets send electrical measurements to Data Concentrator</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA415.htm">Market platform sends flexibility activation schedule to BEMS</a></li>
+<li><img src="../../../images/21.png" alt="Activity"/> <a href="EA416.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a></li>
+<li><img src="../../../images/207.png" alt="Interaction"/> <a href="EA417.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_SequenceDiagram</a></li>
 </ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">UC 4.5 Improving the Grid Infrastructure  : Public  &lt;&lt;High Level Use Case&gt;&gt; UseCase</span>
+	<span class="ObjectTitle">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services  : Public  &lt;&lt;High Level Use Case&gt;&gt; UseCase</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">09/11/2023 15:28:52</td>
+			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:42:33</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">16/11/2023 16:41:31</td>
+			<td class="ObjectDetailsValue">09/01/2024 09:24:35</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -143,17 +156,18 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{AAAA1ABA-E312-4ba7-B21F-DEFAE867758E}</td>
+			<td class="ObjectDetailsValue">{8203B4F0-C3E7-4490-B5A2-B1959088B561}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA86.htm">Grid Plannig Methodologies</a></td>
+			<td class="ObjectDetailsValue"><a href="EA88.htm">HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a>, <a href="../../EA2/EA1/EA559.htm"> UC 5.2</a>, <a href="EA128.htm">Optimal selection of available flexibility</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent != null ? parent.toggleItem('Scenario') : toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
 			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
@@ -175,7 +189,63 @@
 				</td>
 			</tr>
 	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+</div>		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Basic Path</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent">
+						Details:
+							<div id="detailsDIVScenario104" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent">
+Steps:
+	<div id="stepDIVScenario104" class="StrucuturedDiv" >
+		<div class="ObjectDetailsNotes">1. GRID assets send electrical measurements to Data Concentrator&lt;br/&gt; <br />2. Data Concentrator send electrical measurements to DSO &#913;&#924;&#921;&lt;br/&gt; <br />3. DSO &#913;&#924;&#921; updates the DSO AMI Database with measurements&lt;br/&gt; <br />4. DSO EMS forecasts the state of the grid, production and consumption.&lt;br/&gt; <br />5. DSO places flexibility buy offer to market platform.&lt;br/&gt; <br /></div>
+	</div>
+</div>
+
+						<div class="StrucuturedDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageScenario105" /></button>Exceptions:				<div id="detailsDIVScenario105" class="StrucuturedDiv" >
+							<div class="ObjectDetailsNotes">5a. FSPs (at End)<br /></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">FSPs</td>
+					<td width="10%" class="TableRow">Alternate</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent">
+						Details:
+							<div id="detailsDIVScenario107" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent">
+Steps:
+	<div id="stepDIVScenario107" class="StrucuturedDiv" >
+		<div class="ObjectDetailsNotes">1. BEMS send flexibility forecast and baseline consumption to DSO EMS&lt;br/&gt; <br />2. DSO verifies if flexibility can be activated according to grid constraints to BEMS&lt;br/&gt; <br />3.  BEMS send flexibility forecasts and baseline consumption&#160;&#160;to Aggregators/FSPs.&lt;br/&gt; <br />4. Aggregators/FSPs send flexibility sell offer, flexibility forecast and baseline consumption to market platform.&lt;br/&gt; <br />5. Market platform sends flexibility activation schedule to BEMS&lt;br/&gt; <br />6. BEMS send control action to DMS.&lt;br/&gt; <br /></div>
+	</div>
+</div>
+
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
 			<table class="Table ea_table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
@@ -208,14 +278,91 @@
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA164.htm">«Business Use Case» Grid Planning Methodologies</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA669.htm">«Logical Actor» DSO EMS</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA682.htm">«Logical Actor» Smart Meters</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA164.htm">«Business Use Case» HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA165.htm">«Business Use Case» Grid Planning Methodologies</a></td>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA666.htm">«Logical Actor» DMS</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA688.htm">«Logical Actor» Data Concentrator</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA668.htm">«Logical Actor» DSO AMI</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA690.htm">«Logical Actor» Grid</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA679.htm">«Logical Actor» Market Platform</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA664.htm">«Logical Actor» BEMS</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA661.htm">«Logical Actor» Aggregators/FSPs</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA689.htm">«Logical Actor» DSO AMI Database</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="../../EA2/EA5/EA667.htm">«Logical Actor» DSO</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top"><a href="EA167.htm">«Business Use Case» Optimal selection of available flexibility</a></td>
 					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
 					<td width="10%" class="TableRow" valign="top">From</td>

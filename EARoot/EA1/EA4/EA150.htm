@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>UC 5.1 Improve congestion management to facilitate DERs penetration_RobustnessDiagram</title>
+<title>UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> UC 5.1 Improve congestion management to facilitate DERs penetration_RobustnessDiagram </h1>
+			<h1> UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph </h1>
 			<!-- <img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA154.htm">Business use cases</a> / <a href="EA189.htm">UC 5.1 Improve congestion management to facilitate DERs penetration</a> / <a href="EA401.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_RobustnessDiagram</a> / <a href="EA150.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_RobustnessDiagram</a></p>
+			<p><a href="../../../index.htm">Model</a> / <a href="../EA5.htm">SGAM Business Layer</a> / <a href="EA152.htm">Business use cases</a> / <a href="EA188.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services</a> / <a href="EA416.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a> / <a href="EA150.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,11 +84,22 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<li><img src="../../../images/189.png" alt="Diagram"/> <a href="EA150.htm">UC 5.1 Improve congestion management to facilitate DERs penetration_RobustnessDiagram</a></li>
-<li><img src="../../../images/5.png" alt="Class"/> <a href="EA413.htm">BEMS send control signals to building controllers.</a></li>
-<li><img src="../../../images/5.png" alt="Class"/> <a href="EA414.htm">DSO EMS collects flexibility forecasts from BEMS</a></li>
-<li><img src="../../../images/5.png" alt="Class"/> <a href="EA415.htm">DSO EMS collects real time and historical electrical data from DSO SCADA Database. </a></li>
-<li><img src="../../../images/5.png" alt="Class"/> <a href="EA416.htm">RTU send measurements to DSO SCADA</a></li>
+<li><img src="../../../images/181.png" alt=""/> <a href="EA150.htm">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph</a></li>
+<li><img src="../../../images/98.png" alt="StateNode"/> <a href="EA456.htm">FlowEnd1</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA445.htm"> BEMS send flexibility forecasts and baseline consumption  to Aggregators/FSPs.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA446.htm">Aggregators/FSPs send flexibility sell offer, flexibility forecast and baseline consumption to market platform.</a></li>
+<li><img src="../../../images/56.png" alt="Decision"/> <a href="EA447.htm">Alternate1</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA448.htm">BEMS send control action to DMS.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA449.htm">BEMS send flexibility forecast and baseline consumption to DSO EMS</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA450.htm">Data Concentrator send electrical measurements to DSO ΑΜΙ</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA451.htm">DSO EMS forecasts the state of the grid, production and consumption.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA452.htm">DSO places flexibility buy offer to market platform.</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA453.htm">DSO verifies if flexibility can be activated according to grid constraints to BEMS</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA454.htm">DSO ΑΜΙ updates the DSO AMI Database with measurements</a></li>
+<li><img src="../../../images/69.png" alt="StateNode"/> <a href="EA455.htm">End</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA457.htm">GRID assets send electrical measurements to Data Concentrator</a></li>
+<li><img src="../../../images/104.png" alt="Action"/> <a href="EA458.htm">Market platform sends flexibility activation schedule to BEMS</a></li>
+<li><img src="../../../images/68.png" alt="StateNode"/> <a href="EA459.htm">Start</a></li>
 </ul>
 
 					</td>
@@ -97,28 +108,40 @@
 <img src="EA151.png" usemap="#EA151" border="0" />
 
 <MAP NAME="EA151">
-<area shape="rect" coords="355,293,405,356" href="EA413.htm" target="_self">
-<area shape="rect" coords="45,447,80,517" href="../../EA2/EA5/EA641.htm" target="_self">
-<area shape="rect" coords="355,203,405,266" href="EA414.htm" target="_self">
-<area shape="rect" coords="45,375,80,445" href="../../EA2/EA5/EA640.htm" target="_self">
-<area shape="rect" coords="355,113,405,176" href="EA415.htm" target="_self">
-<area shape="rect" coords="45,303,80,373" href="../../EA2/EA5/EA644.htm" target="_self">
-<area shape="rect" coords="45,231,80,301" href="../../EA2/EA5/EA663.htm" target="_self">
-<area shape="rect" coords="355,23,405,86" href="EA416.htm" target="_self">
-<area shape="rect" coords="45,159,80,229" href="../../EA2/EA5/EA645.htm" target="_self">
-<area shape="rect" coords="45,87,80,157" href="../../EA2/EA5/EA666.htm" target="_self">
-<area shape="rect" coords="45,15,80,85" href="../../EA2/EA5/EA664.htm" target="_self">
+<area shape="rect" coords="655,745,745,815" href="../../EA3/EA3/EA1/EA851.htm" target="_self">
+<area shape="rect" coords="655,1012,745,1082" href="../../EA3/EA3/EA1/EA877.htm" target="_self">
+<area shape="rect" coords="655,866,745,936" href="../../EA3/EA3/EA1/EA864.htm" target="_self">
+<area shape="rect" coords="655,1282,745,1352" href="../../EA3/EA3/EA1/EA859.htm" target="_self">
+<area shape="rect" coords="655,1167,745,1237" href="../../EA3/EA3/EA1/EA863.htm" target="_self">
+<area shape="rect" coords="10,729,100,799" href="../../EA3/EA3/EA1/EA876.htm" target="_self">
+<area shape="rect" coords="422,291,512,361" href="../../EA3/EA3/EA1/EA848.htm" target="_self">
+<area shape="rect" coords="422,491,512,561" href="../../EA3/EA3/EA1/EA869.htm" target="_self">
+<area shape="rect" coords="218,1570,238,1590" href="EA455.htm" target="_self">
+<area shape="rect" coords="163,730,298,805" href="EA452.htm" target="_self">
+<area shape="rect" coords="416,1375,436,1395" href="EA456.htm" target="_self">
+<area shape="rect" coords="353,1275,488,1350" href="EA448.htm" target="_self">
+<area shape="rect" coords="353,1165,488,1240" href="EA458.htm" target="_self">
+<area shape="rect" coords="353,1055,488,1138" href="EA446.htm" target="_self">
+<area shape="rect" coords="353,945,488,1020" href="EA445.htm" target="_self">
+<area shape="rect" coords="353,835,488,910" href="EA453.htm" target="_self">
+<area shape="rect" coords="353,725,488,800" href="EA449.htm" target="_self">
+<area shape="rect" coords="215,598,241,632" href="EA447.htm" target="_self">
+<area shape="rect" coords="163,490,298,565" href="EA451.htm" target="_self">
+<area shape="rect" coords="163,370,298,445" href="EA454.htm" target="_self">
+<area shape="rect" coords="163,250,298,325" href="EA450.htm" target="_self">
+<area shape="rect" coords="163,130,298,205" href="EA457.htm" target="_self">
+<area shape="rect" coords="218,10,238,30" href="EA459.htm" target="_self">
 </MAP>
  </div>
-	<div class="ObjectTitle">UC 5.1 Improve congestion management to facilitate DERs penetration_RobustnessDiagram : Analysis diagram</div>
+	<div class="ObjectTitle">UC 5.2 Integrate flexibility with the distribution grid to provide balancing services_ActivityGraph : Activity diagram</div>
 	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:31:15</td>
+			<td width="85%" class="ObjectDetailsValue">09/01/2024 09:25:42</td>
 		</tr>
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
-			<td width="85%" class="ObjectDetailsValue">16/11/2023 09:31:16</td>
+			<td width="85%" class="ObjectDetailsValue">09/01/2024 09:29:43</td>
 		</tr>
 		<tr style="padding-top: 10px;">
 			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
@@ -138,7 +161,7 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
-			<td width="85%" class="ObjectDetailsValue">{A10B57C2-0BAF-42c4-B288-6FD18CC0C424}</td>
+			<td width="85%" class="ObjectDetailsValue">{C3F1678F-6FA3-4bd8-910C-8A1281783CC7}</td>
 		</tr>
 	</table>
 	
