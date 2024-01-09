@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>DSO SCADA</title>
+<title>:UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</title>
 <link href="../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> DSO SCADA </h1>
+			<h1> :UC 1.09 Initialization of HEMS/BEMS Demand Response strategy </h1>
 			<!-- <img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../images/ea-banner.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="EA13.htm">Horizontal</a> / <a href="EA26.htm">DSO SCADA</a></p>
+			<p><a href="EA23.htm"> HEMS and BEMS Flexibility and DR optimization including initial settings algorithms</a> / <a href="EA26.htm">:UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,20 +84,27 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Project: </div>
 						<ul>
-<a href="EA13.htm">Horizontal</a></ul>
+<li><img src="../images/21.png" alt="Activity"/> <a href="EA47.htm"> Building Flexibility Management System identifies flexibility assets.</a></li>
+<li><img src="../images/21.png" alt="Activity"/> <a href="EA48.htm">_ActivityGraph</a></li>
+<li><img src="../images/21.png" alt="Activity"/> <a href="EA50.htm">Building EMS share prosumer&#39;s comfort preferences and daily schedules to Building Flexibility Management System.</a></li>
+<li><img src="../images/21.png" alt="Activity"/> <a href="EA51.htm">Building Flexibility Management System executes initial settings algorithms formulate the appropriate optimization framework </a></li>
+<li><img src="../images/21.png" alt="Activity"/> <a href="EA52.htm">Building Flexibility Management System generates the flexibility forecast. </a></li>
+<li><img src="../images/21.png" alt="Activity"/> <a href="EA53.htm">Plug &#39;n&#39; Play Recognition System provide the QR code information to Building Flexibility Management System </a></li>
+<li><img src="../images/207.png" alt="Interaction"/> <a href="EA49.htm">_SequenceDiagram</a></li>
+</ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">DSO SCADA  : Public  &lt;&lt;Computer&gt;&gt; Node</span>
+	<span class="ObjectTitle">  : Public  &lt;&lt;High Level Use Case&gt;&gt; UseCase</span>
 	<table border="0" class="ObjectDetails">
 		<tr>
 			<td width="15%" class="ObjectDetailsTopic">Created:</td>
-			<td width="85%" class="ObjectDetailsValue">04/11/2023 15:19:57</td>
+			<td width="85%" class="ObjectDetailsValue">11/11/2023 16:08:56</td>
 		</tr>
 		<tr>
 			<td class="ObjectDetailsTopic">Modified:</td>
-			<td class="ObjectDetailsValue">18/07/2023 13:50:26</td>
+			<td class="ObjectDetailsValue">30/11/2023 11:02:17</td>
 		</tr>
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -106,7 +113,7 @@
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
-			<td class="ObjectDetailsValue">AC</td>
+			<td class="ObjectDetailsValue">Dimitris</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
@@ -142,17 +149,18 @@
 		</tr>
 		<tr id="adv00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
-			<td class="ObjectDetailsValue">{34791FB2-C202-41a3-9B65-DBA111226232}</td>
+			<td class="ObjectDetailsValue">{DE3CDE63-AC7F-4560-A990-C40A28954834}</td>
 		</tr>
 		<tr id="adv01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
-			<td class="ObjectDetailsValue"><a href="EA1.htm">UC 1.05 Advanced Asset Management</a></td>
+			<td class="ObjectDetailsValue"><a href="EA13.htm">UC 1.09 Initialization of HEMS/BEMS Demand Response strategy</a></td>
 		</tr>
 	</table>
 	
 	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="parent != null ? parent.toggleItem('TaggedVal') : toggleItem('TaggedVal');" id="TaggedValTitle">Tagged Values</li>
+			<li onClick="parent != null ? parent.toggleItem('Scenario') : toggleItem('Scenario');" id="ScenarioTitle">Scenarios</li>
 			<li onClick="parent != null ? parent.toggleItem('CustomProperties') : toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="parent != null ? parent.toggleItem('Links') : toggleItem('Links');" id="LinksTitle">Other Links</li>
 		</ul>
@@ -163,36 +171,6 @@
 			<td width="50%" class="TableHeading">Value</td>
 		</tr>
 					<tr>
-				<td width="50%" class="TableRow" valign="top">Domain from</td>
-				<td width="50%" class="TableRow" valign="top">&nbsp;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					Details:
-						<div class="ObjectDetailsNotes">Values: Generation,Transmission,Distribution,DER,Customer Premises<br /></div>
-
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">Domain to</td>
-				<td width="50%" class="TableRow" valign="top">&nbsp;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					Details:
-						<div class="ObjectDetailsNotes">Values: Generation,Transmission,Distribution,DER,Customer Premises<br /></div>
-
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">Interoperability Layer</td>
-				<td width="50%" class="TableRow" valign="top">&nbsp;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					Details:
-						<div class="ObjectDetailsNotes">Values: Business Layer,Function Layer,Information Layer,Communication Layer,Component Layer<br /></div>
-
-				</td>
-			</tr>			<tr>
 				<td width="50%" class="TableRow" valign="top">Toolbox Version</td>
 				<td width="50%" class="TableRow" valign="top">0.6</td>
 			</tr>	
@@ -202,39 +180,45 @@
 						<div class="ObjectDetailsNotes">Default: 0.6<br /></div>
 
 				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">Zone from</td>
-				<td width="50%" class="TableRow" valign="top">&nbsp;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					Details:
-						<div class="ObjectDetailsNotes">Values: Process,Field,Station,Operation,Enterprise,Market<br /></div>
-
-				</td>
-			</tr>			<tr>
-				<td width="50%" class="TableRow" valign="top">Zone to</td>
-				<td width="50%" class="TableRow" valign="top">&nbsp;</td>
-			</tr>	
-			<tr>
-				<td class="TableRowBottomDashed"  colspan="2">
-					Details:
-						<div class="ObjectDetailsNotes">Values: Process,Field,Station,Operation,Enterprise,Market<br /></div>
-
-				</td>
 			</tr>
 	</table>
-</div>		<div class="ItemBody" id="CustomPropertiesTable">
+</div>		<div class="ItemBody" id="ScenarioTable">
+			<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="90%" class="TableHeading">Scenario</td>
+					<td width="10%" class="TableHeading">Type</td>
+				</tr>
+				<tr>
+					<td width="90%" class="TableRow">Basic Path</td>
+					<td width="10%" class="TableRow">Basic Path</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent">
+						Details:
+							<div id="detailsDIVScenario3" class="DetailsDiv" >
+							
+							</div>
+						</div>
+						<div class="StrucuturedDivParent">
+Steps:
+	<div id="stepDIVScenario3" class="StrucuturedDiv" >
+		<div class="ObjectDetailsNotes">1. Plug &#39;n&#39; Play Recognition System provide the QR code information to Building Flexibility Management System &lt;br/&gt; <br />2.  Building Flexibility Management System identifies flexibility assets.&lt;br/&gt; <br />3. Building EMS share prosumer&#39;s comfort preferences and daily schedules to Building Flexibility Management System.&lt;br/&gt; <br />4. Building Flexibility Management System executes initial settings algorithms formulate the appropriate optimization framework &lt;br/&gt; <br />5. Building Flexibility Management System generates the flexibility forecast. &lt;br/&gt; <br /></div>
+	</div>
+</div>
+
+						
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<div class="ItemBody" id="CustomPropertiesTable">
 			<table class="Table ea_table">
 				<tr>
 					<td width="30%" class="TableHeading">Property</td>
 					<td width="70%" class="TableHeading">Value</td>
 				</tr>
-			<tr>
-				<td width="30%" class="TableRow">isExecutionEnvironment:</td>
-				<td width="70%" class="TableRow">false</td>
-			</tr>
-
 			<tr>
 				<td width="30%" class="TableRow">isFinalSpecialization:</td>
 				<td width="70%" class="TableRow">0</td>
@@ -252,17 +236,38 @@
 					<td width="40%" class="TableHeading">Notes</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA24.htm">«ICT Gateway» DSO RTU</a></td>
-					<td width="10%" class="TableRow" valign="top">Node</td>
-					<td width="10%" class="TableRow" valign="top">CommunicationPath</td>
+					<td width="30%" class="TableRow" valign="top"><a href="EA29.htm">«Logical Actor» Plug 'n' Play Recognition System</a></td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
 					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 				<tr>
-					<td width="30%" class="TableRow" valign="top"><a href="EA58.htm">«Server» DSO SCADA Database</a></td>
-					<td width="10%" class="TableRow" valign="top">Node</td>
-					<td width="10%" class="TableRow" valign="top">CommunicationPath</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="30%" class="TableRow" valign="top">Aggregators/FSPs</td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">Building Flexibility Management System</td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">Building EMS</td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
+					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+				<tr>
+					<td width="30%" class="TableRow" valign="top">Smart Meters</td>
+					<td width="10%" class="TableRow" valign="top">Actor</td>
+					<td width="10%" class="TableRow" valign="top">UseCase</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td>
 				</tr>
 
